@@ -7,10 +7,15 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      fontFamily: {
+        poppins: ["Poppins"],
+        figtree: ["Figtree"]
+      },
+      colors: {
+        "brand-bp-green": "var(--clr-bp-green)",
+        "brand-bp-vibe": "var(--clr-bp-vibe)",
+        "brand-white-smoke": "var(--clr-white-smoke)",
+        "brand-orange-plum": "var(--clr-orange-plum)",
       },
     },
   },

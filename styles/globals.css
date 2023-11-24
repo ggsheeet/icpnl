@@ -1,27 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --font-family: 'Poppins', sans-serif;
+  --clr-bp-green: #003C18;
+  --clr-bp-vibe: #039200;
+  --clr-white-smoke: #f5f5f5ff;
+  --clr-orange-plum: #FC3E39;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+html {
+  scroll-behavior: smooth;
+  background-color: var(--clr-white-smoke);
+  font-family: var(--font-family);
+}
+
+::selection {
+  background: var(--clr-bp-green);
+  color: var(--clr-white-smoke)
+}
+
+.not-selectable {
+  user-select: none;
+}
+
+.text-brand-news {
+  color: var(--clr-bp-green)
+}
+
+.text-brand-link {
+  color: var(--clr-orange-plum);
+  text-decoration: none;
+  transition: text-decoration 0.3s ease-in-out;
+}
+
+.text-brand-link:hover {
+  text-decoration: underline;
+}
+
+.fade-in {
+  animation: fade-in 1s ease-in;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.custom-arrow {
+  position: absolute;
+  max-width: 10vh;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  z-index: 10;
+  opacity: 85%;
+}
+
+@media (max-width: 768px) {
+  .custom-arrow {
+    position: absolute;
+    max-width: 10vw;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    z-index: 10;
+    opacity: 75%;
+  }
+}
+
+.custom-prev-arrow {
+  left: 1%;
+}
+
+.custom-next-arrow {
+  right: 1%;
+}
+
+.margin-custom {
+  margin-right: 2vw;
+}
+
+@media (min-width: 768px) {
+  .margin-custom {
+    margin-right: 1.5vw;
+  }
+}
+
+@media (min-width: 1024px) {
+  .margin-custom {
+    margin-right: 1vw;
+  }
+}
+
+.text-custom {
+  font-size: 1.3vh;
+}
+
+@media (min-width: 768px) {
+  .text-custom {
+    font-size: 1.5vw;
+  }
+}
+
+@media (min-width: 1024px) {
+  .text-custom {
+    font-size: 1vw;
+  }
 }
