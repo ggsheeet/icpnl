@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
+import { useEffect } from "react";
 import HeaderComp from "@/components/HeaderComp";
 import NewsSlider from "@/components/NewsSlider";
 import CategorySelect from "@/components/CategorySelect";
@@ -22,6 +23,7 @@ import { ChevronLeftIcon, ChevronRightIcon } from "@chakra-ui/icons";
 import { Center, Divider } from "@chakra-ui/react";
 
 export default function Home() {
+  
   const {
     loading: loadingIG,
     error: errorIG,
@@ -143,7 +145,7 @@ export default function Home() {
         <title>BP Boletín</title>
         <meta name="description" content="Boletín global para BP Boletín" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/bplogo.svg" />
+        <link rel="icon" href="/bpicon.svg" />
       </Head>
       <div className="bg-brand-white-smoke">
         <HeaderComp />
@@ -169,6 +171,7 @@ export default function Home() {
             </Link>
           ))}
         </div>
+        
         <CategorySelect articles={newsArticles} />
         <FooterMain />
       </div>

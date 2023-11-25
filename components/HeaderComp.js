@@ -12,12 +12,6 @@ import { useEffect } from "react";
 
 const HeaderComp = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
-
-  useEffect(() => {
-    if (typeof window !== "undefined" && window.FB) {
-      window.FB.XFBML.parse();
-    }
-  }, []);
    
   return (
     <div className="w-full">
@@ -35,7 +29,7 @@ const HeaderComp = () => {
                 fill="none"
                 viewBox="0 0 24 24"
                 strokeWidth={1.5}
-                stroke="#f5f5f5ff"
+                stroke="#f5f5f5ff" 
                 className="w-[4vh] h-auto"
               >
                 <path
@@ -90,23 +84,7 @@ const HeaderComp = () => {
                   los datos y la información necesaria para entender lo que
                   ocurre en el sector a nivel global.
                 </p>
-                <div className="flex w-full h-[50vh]">
-                <div 
-                  className="fb-page w-[50%] h-[100vh]"
-                  data-href="https://www.facebook.com/BPMexico"
-                  data-tabs="timeline,events"
-                  data-width="500"
-                  data-height="500"
-                  data-small-header="false"
-                  data-adapt-container-width="true"
-                  data-hide-cover="false"
-                  data-show-facepile="true"
-                >
-                  <blockquote
-                    cite="https://www.facebook.com/BPMexico"
-                    className="fb-xfbml-parse-ignore"
-                  ></blockquote>
-                </div>
+                <div className="flex w-full h-auto">
                 <div className="w-[50%]">
                 <Image
                   width={288}

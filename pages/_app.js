@@ -3,7 +3,7 @@ import "@/styles/globals.css";
 import { ChakraProvider, extendTheme } from "@chakra-ui/react";
 import { ApolloProvider } from "@apollo/client";
 import { client } from "@/lib/apollo";
-import FacebookSDK from "@/components/FacebookSDK";
+// import FacebookSDK from "@/components/FacebookSDK";
 
 const breakpoints = {
   sm: "486px",
@@ -36,7 +36,7 @@ const theme = extendTheme({
 export default function App({ Component, pageProps }) {
   return (
     <>
-    <FacebookSDK />
+      {/* <FacebookSDK /> */}
       <ChakraProvider theme={theme}>
         <ApolloProvider client={client}>
           <Component {...pageProps} />
