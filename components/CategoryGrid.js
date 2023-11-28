@@ -25,14 +25,14 @@ const CategoryGrid = ({ articles }) => {
                   <img
                     src={article.featuredImage.node.sourceUrl}
                     alt={article.title}
-                    className="w-full md:w-[16vw] h-[40vw] md:h-[10vw] rounded-[1vh] object-cover"
+                    className="not-selectable w-full md:w-[16vw] h-[40vw] md:h-[10vw] rounded-[1vh] object-cover"
                   />
                 </Link>
                 <div className="text-start md:text-end w-full md:w-1/2">
                   <Link href={`/nota/${article.slug}`}>
                     <Text
                       mt={2}
-                      fontSize={{ base: "base", md: "1.3vh", lg: "md", xl: "lg" }}
+                      fontSize={{ base: "base", md: "2.1vw", lg: "2vw", xl: "1.5vw" }}
                       fontWeight="semibold"
                       lineHeight="short"
                       justifyContent="end"
@@ -46,15 +46,14 @@ const CategoryGrid = ({ articles }) => {
                     dangerouslySetInnerHTML={{
                       __html: DOMPurify.sanitize(paragraphs[2]),
                     }}
-                    className="font-medium text-brand-orange-plum text-[1.6vh] md:text-[1.2vh] lg:text-[2vh] mt-[3%] md:mt-[1%] mb-[1%] md:mb-[1%]"
+                    className="font-medium text-brand-bp-vibe text-[1.6vh] md:text-[1.2vh] lg:text-[1.8vw] xl:text-[1.2vw] mt-[3%] md:mt-[1%] mb-[1%] md:mb-[1%]"
                   />
                   <div
                     dangerouslySetInnerHTML={{
                       __html: DOMPurify.sanitize(paragraphs[4]),
                     }}
-                    className="inline-block bg-gray-200 rounded-[2vw] font-medium px-2 text-[1.4vh] md:text-[1vh] lg:text-[1.8vh]"
+                    className="inline-block bg-gray-200 rounded-[2vw] text-brand-bp-green font-medium px-2 text-[1.4vh] md:text-[1vh] lg:text-[1.6vw] xl:text-[1.2vw]"
                   />
-                  
                 </div>
               </Box>
             </div>

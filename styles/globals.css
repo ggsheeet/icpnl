@@ -28,17 +28,18 @@ html {
 }
 
 .text-brand-news {
-  color: var(--clr-bp-green)
+  color: var(--clr-bp-vibe)
 }
 
 .text-brand-link {
-  color: var(--clr-orange-plum);
+  color: var(--clr-bp-green);
   text-decoration: none;
   transition: text-decoration 0.3s ease-in-out;
 }
 
 .text-brand-link:hover {
   text-decoration: underline;
+  cursor: pointer;
 }
 
 .fade-in {

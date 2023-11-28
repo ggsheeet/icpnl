@@ -75,7 +75,7 @@ const ArticlePage = () => {
     <>
       <Head>
         <title>BP Boletín</title>
-        <meta name="description" content="Boletín global para BP Boletín" />
+        <meta name="description" content="Boletín Diario para BP México" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/bpicon.svg" />
       </Head>
@@ -85,7 +85,7 @@ const ArticlePage = () => {
         {/* <RelatedArticles articles={categoryArticles} /> */}
         <footer className="flex flex-col items-center justify-center pt-[6%] px-[2%] bg-brand-white-smoke">
           <p className="text-gray-500 text-[1.7vh] md:text-[2vh] pb-[1%]">
-            BP Boletín Boletin Global
+            BP Boletín Diario
           </p>
           <p className="text-gray-500 text-[1.7vh] md:text-[2vh] pb-[1%]">
             © NBN

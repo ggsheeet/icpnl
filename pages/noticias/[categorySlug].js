@@ -52,14 +52,14 @@ const CategoryPage = () => {
     .sort((a, b) => new Date(a.date) - new Date(b.date));
 
   const categoryColors = {
-    "Información Global": "brand.400",
-    "Océano Atlántico": "brand.500",
-    "Medio Oriente": "brand.600",
-    "Continente Asiático": "brand.700",
-    "Oceanía": "brand.800",
-    "Continente Africano": "brand.900",
-    "Continente Europeo": "brand.1000",
-    "Continente Americano": "brand.1100",
+    "BP": "brand.1200",
+    "Gas": "brand.1200",
+    "Empresas del Sector": "brand.1200",
+    "Aceites & Lubricantes": "brand.1200",
+    "Renovables": "brand.1200",
+    "Responsabilidad": "brand.1200",
+    "Internacionales": "brand.1200",
+    // "Continente Americano": "brand.1100",
   };
   
   const borderColor = categoryColors[categorySlug];
@@ -68,7 +68,7 @@ const CategoryPage = () => {
     <>
       <Head>
         <title>BP Boletín</title>
-        <meta name="description" content="Boletín global para BP Boletín" />
+        <meta name="description" content="Boletín diario para BP México" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/bpicon.svg" />
       </Head>
@@ -76,11 +76,11 @@ const CategoryPage = () => {
         <HeaderOther />
         <div className="text-center md:text-start">
           <Text
-            textColor="brand.50"
+            textColor="brand.1200"
             fontFamily="figtree"
             borderBottomWidth={{ base: "0.65vw", md: "0.2vw" }}
             borderBottomColor={borderColor}
-            fontSize={{ base: "2.5vh", md: "2.3vh", lg: "3vh" }}
+            fontSize={{ base: "2.5vh", md: "2.5vw", xl: "1.8vw" }}
             fontWeight={700}
             my={{ base: "4%", md: "2%", lg: "1%" }}
             mx={{ base: "2.3%", md: "2.5%", lg: "2%" }}
@@ -95,10 +95,10 @@ const CategoryPage = () => {
           loading={loading}
         />
         <footer className="flex flex-col items-center justify-center p-[2%] bg-brand-white-smoke">
-          <p className="text-gray-500 text-[1.7vh] md:text-[2vh] pb-[1%]">
-            BP Boletín Boletin Global
+          <p className="text-gray-500 text-[1.7vh] md:text-[2vw] lg:text-[1vw] pb-[1%]">
+            BP Boletín Diario
           </p>
-          <p className="text-gray-500 text-[1.7vh] md:text-[2vh] pb-[2%]">
+          <p className="text-gray-500 text-[1.7vh] md:text-[2vw] lg:text-[1vw] pb-[2%]">
             © NBN
           </p>
         </footer>

@@ -5,7 +5,7 @@ import { Center, Divider } from "@chakra-ui/react";
 const FooterMain = () => {
   return (
     <footer className="flex relative flex-col items-center justify-center text-center p-[4%] md:p-[3%] bg-brand-white-smoke font-bold font-figtree">
-      <Image
+      {/* <Image
         src="/comydes.png"
         width={738}
         height={136}
@@ -42,9 +42,9 @@ const FooterMain = () => {
         className="text-gray-500 text-[1.3vh] md:text-[2.1vh] mb-[3%] md:mb-[1%] hover:border-b-[0.1vw] hover:border-b-gray-500"
       >
         +52 938 381 1400
-      </a>
+      </a> */}
       <p className="font-bold text-brand-bp-green text-[1.5vh] md:text-[2.3vh] pb-[3%] md:pb-[1%]">
-        MATERIAL PARA USO EXCLUSIVO DE GRUPO COTEMAR
+        MATERIAL PARA USO EXCLUSIVO DE BP MÉXICO
       </p>
       <p className="font-medium text-gray-700 text-[0.9vh] md:text-[1.2vh] pb-[0.5%]">
         Elaborado por:

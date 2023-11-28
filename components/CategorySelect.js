@@ -12,14 +12,14 @@ import {
 import { ChevronRightIcon } from "@chakra-ui/icons";
 
 const categoryColors = {
-  "Información Global": "brand.400",
-  "Océano Atlántico": "brand.500",
-  "Medio Oriente": "brand.600",
-  "Continente Asiático": "brand.700",
-  "Oceanía": "brand.800",
-  "Continente Africano": "brand.900",
-  "Continente Europeo": "brand.1000",
-  "Continente Americano": "brand.1100",
+  "BP": "brand.1200",
+  "Gas": "brand.1200",
+  "Empresas del Sector": "brand.1200",
+  "Aceites & Lubricantes": "brand.1200",
+  "Renovables": "brand.1200",
+  "Responsabilidad": "brand.1200",
+  "Internacionales": "brand.1200",
+  // "Continente Americano": "brand.1100",
 };
 
 const CategorySelect = ({ articles }) => {
@@ -75,7 +75,9 @@ const CategorySelect = ({ articles }) => {
               bgColor="gray.200"
               fontSize={{
                 base: "2vh",
-                md: "2.4vh",
+                md: "2.3vw",
+                lg: "1.4vw",
+                xl: "1.2vw"
               }}
               p="4"
               fontWeight="extrabold"
@@ -94,7 +96,7 @@ const CategorySelect = ({ articles }) => {
                 className="flex flex-row items-center"
               >
                 <Text
-                  fontSize={{base: "1.8vh", md: "1.9vh", lg: "2vh"}}
+                  fontSize={{base: "1.8vh", md: "1.9vw", lg: "1.2vw", xl: "1vw"}}
                   fontFamily="figtree"
                   cursor="pointer"
                   sx={{
@@ -129,9 +131,9 @@ const CategorySelect = ({ articles }) => {
                       <img
                         src={article.featuredImage.node.sourceUrl}
                         alt=""
-                        className="object-cover w-[12vh] h-[8vh] mr-[3%] rounded-[1vw]"
+                        className="not-selectable object-cover w-[30%] h-[80%] mr-[3%] rounded-[1vw]"
                       />
-                      <div className="text-[1.55vh] md:text-[2vh] font-bold">
+                      <div className="w-[70%] text-[1.55vh] md:text-[3vw] lg:text-[1.2vw] xl:text-[0.9vw] font-bold">
                         {article.title}
                       </div>
                     </Box>

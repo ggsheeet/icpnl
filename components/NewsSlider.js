@@ -22,14 +22,14 @@ const DataTabs = ({ data, selectedTab, onSelectTab, tabData }) => (
           <Tab
             key={index}
             py="2.5vh"
-            mx="0.5vh"
+            mx="0.5vw"
             fontSize={{
               base: "2vh",
-              lg: "1.7vh",
-              xl: "1.9vh",
-              xxl: "1.8vh",
+              lg: "1.2vw",
+              xl: "1vw",
+              xxl: "1vw",
             }}
-            color="brand.50"
+            color="brand.1200"
             fontWeight={600}
             fontFamily="figtree"
           >
@@ -55,7 +55,7 @@ const DataTabs = ({ data, selectedTab, onSelectTab, tabData }) => (
         <Select
           value={selectedTab}
           onChange={(event) => onSelectTab(Number(event.target.value))}
-          bg="brand.300"
+          bg="brand.1200"
           fontSize={{
             base: "2vh",
             md: "1.7vh",
@@ -143,7 +143,7 @@ const NewsSlider = ({ articles }) => {
                           </Link>
                         </div>
                         <Link href={`/nota/${article.slug}`}>
-                          <div className="font-bold text-[2.1vh]">
+                          <div className="font-bold text-[2.1vh] md:text-[2.5vw] lg:text-[1.4vw] xl:text-[1.2vw]">
                             {article.title}
                           </div>
                         </Link>

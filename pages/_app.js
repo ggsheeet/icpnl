@@ -11,6 +11,7 @@ const breakpoints = {
   lg: "1020",
   xl: "1440",
   xxl: "1550",
+  xxxl: "2140"
 };
 
 const theme = extendTheme({
@@ -29,6 +30,8 @@ const theme = extendTheme({
       900: "#634A1B",
       1000: "#433D88",
       1100: "#353535",
+      1200: "#003C18",
+      1300: "#039200"
     },
   },
 });
