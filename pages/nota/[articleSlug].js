@@ -62,7 +62,7 @@ const ArticlePage = () => {
     <>
       <Head>
         <title>ICPNL Boletín</title>
-        <meta name="description" content="Boletín Diario para ICPNL México" />
+        <meta name="description" content="Boletín Diario para ICPNL" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/icpnl-ico.svg" />
       </Head>
