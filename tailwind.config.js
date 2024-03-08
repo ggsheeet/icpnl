@@ -19,6 +19,8 @@ module.exports = {
         "brand-bp-vibe": "var(--clr-bp-vibe)",
         "brand-white-smoke": "var(--clr-white-smoke)",
         "brand-orange-plum": "var(--clr-orange-plum)",
+        "brand-icpnl-red": "var(--clr-icpnl-red)",
+        "brand-pepper": "var(--clr-pepper)"
       },
     },
   },

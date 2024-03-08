@@ -46,13 +46,13 @@ const CategoryGrid = ({ articles }) => {
                     dangerouslySetInnerHTML={{
                       __html: DOMPurify.sanitize(paragraphs[2]),
                     }}
-                    className="font-medium text-brand-bp-vibe text-[1.6vh] md:text-[1.2vh] lg:text-[1.8vw] xl:text-[1.2vw] mt-[3%] md:mt-[1%] mb-[1%] md:mb-[1%]"
+                    className="font-medium text-brand-icpnl-red text-[1.6vh] md:text-[1.2vh] lg:text-[1.8vw] xl:text-[1.2vw] mt-[3%] md:mt-[1%] mb-[1%] md:mb-[1%]"
                   />
                   <div
                     dangerouslySetInnerHTML={{
                       __html: DOMPurify.sanitize(paragraphs[4]),
                     }}
-                    className="inline-block bg-gray-200 rounded-[2vw] text-brand-bp-green font-medium px-2 text-[1.4vh] md:text-[1vh] lg:text-[1.6vw] xl:text-[1.2vw]"
+                    className="inline-block bg-gray-200 rounded-[2vw] text-brand-pepper font-medium px-2 text-[1.4vh] md:text-[1vh] lg:text-[1.6vw] xl:text-[1.2vw]"
                   />
                 </div>
               </Box>

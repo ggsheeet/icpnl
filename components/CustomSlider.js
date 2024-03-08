@@ -75,7 +75,7 @@ const CustomSlider = ({ items }) => {
         sx={{
           "&::before": {
             content: "''",
-            backgroundImage: `url('/arrb2.svg')`,
+            backgroundImage: `url('/arback2.svg')`,
             backgroundPosition: "center center",
             backgroundRepeat: "no-repeat",
             backgroundSize: "100% 100%",
@@ -103,7 +103,7 @@ const CustomSlider = ({ items }) => {
         onClick={handlePrevSlide}
         isDisabled={currentIndex === 0}
       >
-        <Image src="/arb1.svg" alt="Previous" />
+        <Image src="/arbac1.svg" alt="Previous" />
       </IconButton>
 
       <IconButton
@@ -115,7 +115,7 @@ const CustomSlider = ({ items }) => {
         sx={{
           "&::before": {
             content: "''",
-            backgroundImage: `url('/arrf2.svg')`,
+            backgroundImage: `url('/arforw2.svg')`,
             backgroundPosition: "center center",
             backgroundRepeat: "no-repeat",
             backgroundSize: "100% 100%",
@@ -143,7 +143,7 @@ const CustomSlider = ({ items }) => {
         onClick={handleNextSlide}
         isDisabled={currentIndex >= items.length - slidesToShow}
       >
-        <Image src="/arf1.svg" alt="Next" />
+        <Image src="/arfor1.svg" alt="Next" />
       </IconButton>
     </Box>
   );

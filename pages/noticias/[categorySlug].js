@@ -51,26 +51,25 @@ const CategoryPage = () => {
     .slice()
     .sort((a, b) => new Date(a.date) - new Date(b.date));
 
-  const categoryColors = {
-    "BP": "brand.1200",
-    "Gas": "brand.1200",
-    "Empresas del Sector": "brand.1200",
-    "Aceites & Lubricantes": "brand.1200",
-    "Renovables": "brand.1200",
-    "Responsabilidad": "brand.1200",
-    "Internacionales": "brand.1200",
-    // "Continente Americano": "brand.1100",
-  };
+    const categoryColors = {
+      "Fiscal": "brand.1200",
+      "Laboral": "brand.1200",
+      "Comercio Exterior": "brand.1200",
+      "Nacional": "brand.1200",
+      "Empresas": "brand.1200",
+      "Finanzas": "brand.1200",
+      "RSE": "brand.1200",
+    };
   
   const borderColor = categoryColors[categorySlug];
 
   return (
     <>
       <Head>
-        <title>BP Boletín</title>
-        <meta name="description" content="Boletín diario para BP México" />
+        <title>ICPNL Boletín</title>
+        <meta name="description" content="Boletín diario para ICPNL México" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/bpicon.svg" />
+        <link rel="icon" href="/icpnl-ico.svg" />
       </Head>
       <div className="bg-brand-white-smoke">
         <HeaderOther />
@@ -96,7 +95,7 @@ const CategoryPage = () => {
         />
         <footer className="flex flex-col items-center justify-center p-[2%] bg-brand-white-smoke">
           <p className="text-gray-500 text-[1.7vh] md:text-[2vw] lg:text-[1vw] pb-[1%]">
-            BP Boletín Diario
+            ICPNL Boletín Diario
           </p>
           <p className="text-gray-500 text-[1.7vh] md:text-[2vw] lg:text-[1vw] pb-[2%]">
             © NBN

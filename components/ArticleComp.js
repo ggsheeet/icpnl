@@ -24,7 +24,7 @@ const ArticleComp = ({ article }) => {
             dangerouslySetInnerHTML={{
               __html: DOMPurify.sanitize(paragraphs[2]),
             }}
-            className="text-brand-news mt-[3%] md:mt-[1%] font-medium text-[1.9vh] md:text-[2.1vh] lg:text-[2.7vw] xl:text-[2.7vh]"
+            className="text-brand-icpnl-red mt-[3%] md:mt-[1%] font-medium text-[1.9vh] md:text-[2.1vh] lg:text-[2.7vw] xl:text-[2.7vh]"
           />
           <div
             dangerouslySetInnerHTML={{

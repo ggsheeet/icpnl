@@ -58,26 +58,13 @@ const ArticlePage = () => {
 
   const article = data?.postBy;
 
-//   const [categoryArticles, setCategoryArticles] = useState([]);
-
-//   useEffect(() => {
-//     if (article && article.categories.nodes.length > 0) {
-//       const categoryId = article.categories.nodes[0].id;
-//       const { data: categoryData } = useQuery(GET_POSTS_BY_CATEGORY, {
-//         variables: { categoryId },
-//       });
-
-//       setCategoryArticles(categoryData?.posts?.nodes || []);
-//     }
-//   }, [article]);
-
   return (
     <>
       <Head>
-        <title>BP Boletín</title>
-        <meta name="description" content="Boletín Diario para BP México" />
+        <title>ICPNL Boletín</title>
+        <meta name="description" content="Boletín Diario para ICPNL México" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/bpicon.svg" />
+        <link rel="icon" href="/icpnl-ico.svg" />
       </Head>
       <div className="bg-brand-white-smoke">
         <HeaderOther />
@@ -85,7 +72,7 @@ const ArticlePage = () => {
         {/* <RelatedArticles articles={categoryArticles} /> */}
         <footer className="flex flex-col items-center justify-center pt-[6%] px-[2%] bg-brand-white-smoke">
           <p className="text-gray-500 text-[1.7vh] md:text-[2vh] pb-[1%]">
-            BP Boletín Diario
+            ICPNL Boletín Diario
           </p>
           <p className="text-gray-500 text-[1.7vh] md:text-[2vh] pb-[1%]">
             © NBN

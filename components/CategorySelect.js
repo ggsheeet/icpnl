@@ -12,14 +12,13 @@ import {
 import { ChevronRightIcon } from "@chakra-ui/icons";
 
 const categoryColors = {
-  "BP": "brand.1200",
-  "Gas": "brand.1200",
-  "Empresas del Sector": "brand.1200",
-  "Aceites & Lubricantes": "brand.1200",
-  "Renovables": "brand.1200",
-  "Responsabilidad": "brand.1200",
-  "Internacionales": "brand.1200",
-  // "Continente Americano": "brand.1100",
+  "Fiscal": "brand.1200",
+  "Laboral": "brand.1200",
+  "Comercio Exterior": "brand.1200",
+  "Nacional": "brand.1200",
+  "Empresas": "brand.1200",
+  "Finanzas": "brand.1200",
+  "RSE": "brand.1200",
 };
 
 const CategorySelect = ({ articles }) => {
@@ -130,7 +129,7 @@ const CategorySelect = ({ articles }) => {
                     >
                       <img
                         src={article.featuredImage.node.sourceUrl}
-                        alt=""
+                        alt="featured-img"
                         className="not-selectable object-cover w-[30%] h-[80%] mr-[3%] rounded-[1vw]"
                       />
                       <div className="w-[70%] text-[1.55vh] md:text-[3vw] lg:text-[1.2vw] xl:text-[0.9vw] font-bold">

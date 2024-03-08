@@ -55,7 +55,7 @@ const DataTabs = ({ data, selectedTab, onSelectTab, tabData }) => (
         <Select
           value={selectedTab}
           onChange={(event) => onSelectTab(Number(event.target.value))}
-          bg="brand.1200"
+          bg="brand.1400"
           fontSize={{
             base: "2vh",
             md: "1.7vh",

@@ -10,6 +10,8 @@
   --clr-bp-vibe: #039200;
   --clr-white-smoke: #f5f5f5ff;
   --clr-orange-plum: #FC3E39;
+  --clr-icpnl-red: #ce394d;
+  --clr-pepper: #222
 }
 
 html {
@@ -19,7 +21,7 @@ html {
 }
 
 ::selection {
-  background: var(--clr-bp-green);
+  background: var(--clr-icpnl-red);
   color: var(--clr-white-smoke)
 }
 
@@ -32,13 +34,12 @@ html {
 }
 
 .text-brand-link {
-  color: var(--clr-bp-green);
-  text-decoration: none;
+  color: var(--clr-pepper);
+  text-decoration: underline;
   transition: text-decoration 0.3s ease-in-out;
 }
 
 .text-brand-link:hover {
-  text-decoration: underline;
   cursor: pointer;
 }
 
@@ -120,4 +121,25 @@ html {
   .text-custom {
     font-size: 1vw;
   }
+}
+
+tr {
+  height: auto;
+}
+
+td:first-child {
+  width: 60%;
+  padding-right: 4vw;
+  padding-bottom: 2vh;
+}
+
+td:not(:first-child) {
+  width: 20%;
+  text-align: end;
+}
+
+td:last-child {
+  text-decoration: underline 2px;
+  text-underline-offset: 4px;
+  padding-left: 12px;
 }
