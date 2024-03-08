@@ -60,7 +60,7 @@ const HeaderComp = ({ isOpen, onOpen, onClose }) => {
 
 	return (
 		<div className='w-full'>
-			<header className='bg-brand-white-smoke min-w-full z-50 py-[2.5%] md:py-[1.5%] lg:py-[1%]'>
+			<header className='bg-brand-white-smoke min-w-full z-50 py-[2.5%] md:py-[1.5%] lg:py-[1%] mb-5 border-b-[3px] border-b-gray-300'>
 				{/* Side Tab */}
 				<div className='flex items-center mx-[1.5%]'>
 					<div className='w-[30vw] lg:w-[18vw] xl:w-[14vw] my-[2%]'>
