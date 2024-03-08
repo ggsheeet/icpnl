@@ -39,64 +39,66 @@ const PressSATPod = () => {
 	const satDescription = removePTags(mediaSAT.caption)
 
 	return (
-		<div className='flex flex-col items-center justify-center w-full bg-brand-white-smoke gap-[3vh] md:gap-[2vw] pt-[5%] md:pt-[2%] pb-[1.5%]'>
-			<div className='flex gap-[3vh] md:gap-[2vw] '>
-				{mediaPRESS && mediaPRESS.altText && (
-					<a href={pressDescription} rel='noopMAG noreferrer' target='_blank'>
-						<Image
-							src={mediaPRESS.sourceUrl}
-							alt={mediaPRESS.altText}
-							width={mediaPRESS.mediaDetails?.width}
-							height={mediaPRESS.mediaDetails?.height}
-							className='object-contain rounded-lg w-[41vw] md:w-[40vw] lg:w-[30vw] max-w-[630px]'
-						/>
-					</a>
-				)}
-				{mediaSAT && mediaSAT.altText && (
-					<a href={satDescription} rel='noopener noreferrer' target='_blank'>
-						<Image
-							src={mediaSAT.sourceUrl}
-							alt={mediaSAT.altText}
-							width={mediaSAT.mediaDetails?.width}
-							height={mediaSAT.mediaDetails?.height}
-							className='object-contain rounded-lg w-[41vw] md:w-[40vw] lg:w-[30vw] max-w-[630px]'
-						/>
-					</a>
-				)}
-			</div>
-			<div>
-				{mediaPOD && mediaPOD.altText && (
-					<div className='relative'>
-						<Image
-							src={mediaPOD.sourceUrl}
-							alt={mediaPOD.altText}
-							width={mediaPOD.mediaDetails?.width}
-							height={mediaPOD.mediaDetails?.height}
-							className='object-contain rounded-lg w-[88vw] md:w-[82vw] lg:w-[62vw] max-w-[1280px] z-10'
-						/>
-						<a
-							href='http://tinyurl.com/2fwxu6nt'
-							rel='noopener noreferrer'
-							target='_blank'
-							alt='spotify'
-							className='absolute top-[79.2%] left-[3.85%] w-[28.5%] h-[11.1%] bg-transparent z-30'
-						></a>
-						<a
-							href='http://tinyurl.com/4wd5rd7s'
-							rel='noopener noreferrer'
-							target='_blank'
-							alt='youtube'
-							className='absolute top-[79.2%] left-[35.8%] w-[28.5%] h-[11.1%] bg-transparent z-30'
-						></a>
-						<a
-							href='http://tinyurl.com/bdd92upn'
-							rel='noopener noreferrer'
-							target='_blank'
-							alt='apple'
-							className='absolute top-[79.2%] left-[67.6%] w-[28.5%] h-[11.1%] bg-transparent z-30'
-						></a>
-					</div>
-				)}
+		<div className='flex items-center justify-center'>
+			<div className='flex flex-row flex-wrap items-center justify-center w-[88vw] bg-brand-white-smoke gap-[2vw] pt-[5%] md:pt-[2%] pb-[1.5%]'>
+				<div className='flex gap-[2vw] w-full lg:w-[43.5%] max-w-[790px] md:max-w-[720px] lg:max-w-[627px] xl:max-w-[790px] 2xl:xl:max-w-[627px]'>
+					{mediaPRESS && mediaPRESS.altText && (
+						<a href={pressDescription} rel='noopMAG noreferrer' target='_blank' className='w-[50%] h-auto'>
+							<Image
+								src={mediaPRESS.sourceUrl}
+								alt={mediaPRESS.altText}
+								width={mediaPRESS.mediaDetails?.width}
+								height={mediaPRESS.mediaDetails?.height}
+								className='object-contain rounded-lg w-full h-auto'
+							/>
+						</a>
+					)}
+					{mediaSAT && mediaSAT.altText && (
+						<a href={satDescription} rel='noopener noreferrer' target='_blank' className='w-[50%] h-auto'>
+							<Image
+								src={mediaSAT.sourceUrl}
+								alt={mediaSAT.altText}
+								width={mediaSAT.mediaDetails?.width}
+								height={mediaSAT.mediaDetails?.height}
+								className='object-contain rounded-lg w-full h-auto'
+							/>
+						</a>
+					)}
+				</div>
+				<div className='w-full lg:w-[56.5%] max-w-[790px] md:max-w-[720px] lg:max-w-[790px]'>
+					{mediaPOD && mediaPOD.altText && (
+						<div className='relative'>
+							<Image
+								src={mediaPOD.sourceUrl}
+								alt={mediaPOD.altText}
+								width={mediaPOD.mediaDetails?.width}
+								height={mediaPOD.mediaDetails?.height}
+								className='object-contain rounded-lg w-full h-auto z-10'
+							/>
+							<a
+								href='http://tinyurl.com/2fwxu6nt'
+								rel='noopener noreferrer'
+								target='_blank'
+								alt='spotify'
+								className='absolute top-[79.2%] left-[3.85%] w-[28.5%] h-[11.1%] bg-transparent z-30'
+							></a>
+							<a
+								href='http://tinyurl.com/4wd5rd7s'
+								rel='noopener noreferrer'
+								target='_blank'
+								alt='youtube'
+								className='absolute top-[79.2%] left-[35.8%] w-[28.5%] h-[11.1%] bg-transparent z-30'
+							></a>
+							<a
+								href='http://tinyurl.com/bdd92upn'
+								rel='noopener noreferrer'
+								target='_blank'
+								alt='apple'
+								className='absolute top-[79.2%] left-[67.6%] w-[28.5%] h-[11.1%] bg-transparent z-30'
+							></a>
+						</div>
+					)}
+				</div>
 			</div>
 		</div>
 	)

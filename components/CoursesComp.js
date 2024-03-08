@@ -41,7 +41,8 @@ const CoursesComp = () => {
 	const thiDescription = removePTags(mediaTHI.caption)
 
 	return (
-		<div className='flex flex-col md:flex-row md:flex-wrap items-center justify-center w-full bg-brand-white-smoke gap-[3vh] md:gap-[2vw] pt-[5%] md:pt-[2%] pb-[1.5%]'>
+		<div className='flex items-center justify-center'>
+		<div className='flex flex-wrap items-center justify-center bg-brand-white-smoke w-[90vw] gap-[3vh] md:gap-[2vw] pt-[5%] md:pt-[2%] pb-[1.5%]'>
 			{mediaFIR && mediaFIR.altText && (
 				<a
 					href={firDescription}
@@ -53,7 +54,7 @@ const CoursesComp = () => {
 						alt={mediaFIR.altText}
 						width={mediaFIR.mediaDetails?.width}
 						height={mediaFIR.mediaDetails?.height}
-                        className='object-contain rounded-lg w-[88vw] md:w-[40vw] lg:w-[30vw] max-w-[630px]'
+                        className='object-contain rounded-lg w-[88vw] md:w-[40vw] lg:w-[30vw] max-w-[160px] md:max-w-[250px] lg:max-w-[360px]'
 						priority
 					/>
 				</a>
@@ -65,7 +66,7 @@ const CoursesComp = () => {
 						alt={mediaSEC.altText}
 						width={mediaSEC.mediaDetails?.width}
 						height={mediaSEC.mediaDetails?.height}
-                        className='object-contain rounded-lg w-[88vw] md:w-[40vw] lg:w-[30vw] max-w-[630px]'
+                        className='object-contain rounded-lg w-[88vw] md:w-[40vw] lg:w-[30vw] max-w-[160px] md:max-w-[250px] lg:max-w-[360px]'
 						priority
 					/>
 				</a>
@@ -77,11 +78,12 @@ const CoursesComp = () => {
 						alt={mediaTHI.altText}
 						width={mediaTHI.mediaDetails?.width}
 						height={mediaTHI.mediaDetails?.height}
-                        className='object-contain rounded-lg w-[88vw] md:w-[40vw] lg:w-[30vw] max-w-[630px]'
+                        className='object-contain rounded-lg w-[88vw] md:w-[40vw] lg:w-[30vw] max-w-[160px] md:max-w-[250px] lg:max-w-[360px]'
 						priority
 					/>
 				</a>
 			)}
+		</div>
 		</div>
 	)
 }
