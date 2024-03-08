@@ -170,7 +170,7 @@ export default function Home() {
 
 				<CoursesComp />
 
-				<div className='flex items-center justify-center md:hidden pt-[4%] mx-[3.6%] text-[1.7vh] text-center text-brand-bp-green font-medium'>
+				<div className='flex items-center justify-center md:hidden pt-[4%] mx-[3.6%] text-[1.7vh] text-center text-brand-pepper font-medium'>
 					<ChevronLeftIcon width='6vw' height='6vw' />
 					<p className='px-[1%]'>
 						Desliza para navegar entre las diferentes categorías
