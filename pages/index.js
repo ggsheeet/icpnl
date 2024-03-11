@@ -155,19 +155,20 @@ export default function Home() {
 	return (
 		<>
 			<Head>
-				<title>ICPNL Boletín</title>
-				<meta name='description' content='Boletín diario para ICPNL' />
+			<title>ICPNL Boletín</title>
+				<meta name='description' content={`Boletín Diario ICPNL | ${currentDate}`} />
 				<meta name='viewport' content='width=device-width, initial-scale=1' />
 				<link rel='icon' href='/icpnl-ico.svg' />
 				<meta property='og:title' content='ICPNL Boletín' />
-				<meta property='og:type' content='website' />
 				<meta
-					property='og:url'
-					content='https://www.imdb.com/title/tt0117500/'
+					property='og:description'
+					content={`Boletín Diario ICPNL | ${currentDate}`}
 				/>
+				<meta property='og:type' content='website' />
+				<meta property='og:url' content='https://icpnl.vercel.app' />
 				<meta
 					property='og:image'
-					content='https://ia.media-imdb.com/images/rock.jpg'
+					content='https://icpnl.vercel.app/icpnl-ico.svg'
 				/>
 			</Head>
 			<div className='bg-brand-white-smoke'>
