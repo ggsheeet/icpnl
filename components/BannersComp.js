@@ -55,7 +55,7 @@ const BannersComp = () => {
 						alt={media.altText}
 						width={media.mediaDetails?.width}
 						height={media.mediaDetails?.height}
-						className="w-auto h-[9vh]"
+						className="w-auto h-[11vh]"
 						priority
 					/>
 				</a>
