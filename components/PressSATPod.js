@@ -40,7 +40,7 @@ const PressSATPod = () => {
 
 	return (
 		<div className='flex items-center justify-center'>
-			<div className='flex flex-row flex-wrap items-center justify-center w-[88vw] bg-brand-white-smoke gap-[2vw] pt-[5%] md:pt-[2%] pb-[1.5%]'>
+			<div className='flex flex-row flex-wrap items-center justify-center w-[88vw] bg-brand-white-smoke gap-[2vw] pt-[10%] md:pt-[2%] pb-[1.5%]'>
 				<div className='flex gap-[2vw] w-full lg:w-[40%] max-w-[790px] md:max-w-[720px] lg:max-w-[627px] xl:max-w-[790px] 2xl:xl:max-w-[627px]'>
 					{mediaPRESS && mediaPRESS.altText && (
 						<a href={pressDescription} rel='noopMAG noreferrer' target='_blank' className='w-[50%] h-auto'>
