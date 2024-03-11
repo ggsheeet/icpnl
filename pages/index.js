@@ -21,6 +21,7 @@ import {
 import { ChevronLeftIcon, ChevronRightIcon } from '@chakra-ui/icons'
 import { Center, Divider, Button, useDisclosure } from '@chakra-ui/react'
 import FoliosComp from '@/components/FoliosComp'
+import BannersComp from '@/components/BannersComp'
 
 export default function Home() {
 	const { isOpen, onOpen, onClose } = useDisclosure()
@@ -180,6 +181,7 @@ export default function Home() {
 				<div className='p-[1rem]'>
 					<CoursesComp />
 				</div>
+				<BannersComp />
 				<NewsSlider articles={newsArticles} />
 				<div className='flex items-center justify-center md:hidden pt-[4%] mx-[3.6%] text-[1.7vh] text-center text-brand-pepper font-medium'>
 					<ChevronLeftIcon width='6vw' height='6vw' />
@@ -200,7 +202,7 @@ export default function Home() {
 
 				<PresSSATPod />
 
-				<CategorySelect articles={newsArticles} />
+				{/* <CategorySelect articles={newsArticles} /> */}
 
 				<FoliosComp />
 

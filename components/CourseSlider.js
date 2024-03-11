@@ -115,11 +115,11 @@ const CourseSlider = ({ items }) => {
 						}}
 						width={{
 							base: '4.5vh',
-							md: '4vh'
+							md: '4.5vh'
 						}}
 						height={{
 							base: '4.5vh',
-							md: '4vh'
+							md: '4.5vh'
 						}}
 						rounded='full'
 						onClick={handlePrevSlide}
@@ -155,11 +155,11 @@ const CourseSlider = ({ items }) => {
 						}}
 						width={{
 							base: '4.5vh',
-							md: '4vh'
+							md: '4.5vh'
 						}}
 						height={{
 							base: '4.5vh',
-							md: '4vh'
+							md: '4.5vh'
 						}}
 						rounded='100%'
 						onClick={handleNextSlide}

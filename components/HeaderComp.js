@@ -65,11 +65,11 @@ const HeaderComp = ({ isOpen, onOpen, onClose }) => {
 				<div className='flex items-center mx-[1.5%]'>
 					<div className='w-[30vw] lg:w-[22vw] xl:w-[15vw] my-[2%]'>
 						<button
-							className='flex items-center justify-center focus:outline-none bg-brand-icpnl-red hover:bg-brand-pepper text-brand-white-smoke text-[1.7vw] md:text-[13px] lg:text-sm xl:text-[13px] 2xl:text-[0.9vw] rounded-md md:rounded-lg px-[6%] py-[6%] md:px-[6%] md:py-[6%] ñg:px-[7%] lg:py-[7%] xl:px-[10%] xl:py-[10%]'
+							className='flex items-center justify-center focus:outline-none bg-brand-icpnl-red hover:bg-brand-pepper text-brand-white-smoke text-[2.7vw] md:text-[14px] lg:text-[15px] xl:text-[17px] 2xl:text-[0.9vw] rounded-md md:rounded-lg px-[9%] py-[7%] lg:px-[7%] lg:py-[7%] xl:px-[10%] xl:py-[8%]'
 							onClick={onOpen}
 							aria-label='Toggle Menu'
 						>
-								Revistas Editoriales
+								Revistas
 						</button>
 					</div>
 					{/* Logo */}
