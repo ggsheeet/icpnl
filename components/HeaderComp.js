@@ -63,26 +63,13 @@ const HeaderComp = ({ isOpen, onOpen, onClose }) => {
 			<header className='bg-brand-white-smoke min-w-full z-50 py-[2.5%] md:py-[1.5%] lg:py-[1%] mb-5 border-b-[3px] border-b-gray-300'>
 				{/* Side Tab */}
 				<div className='flex items-center mx-[1.5%]'>
-					<div className='w-[30vw] lg:w-[18vw] xl:w-[14vw] my-[2%]'>
+					<div className='w-[30vw] lg:w-[22vw] xl:w-[15vw] my-[2%]'>
 						<button
-							className='focus:outline-none'
+							className='flex items-center justify-center focus:outline-none bg-brand-icpnl-red hover:bg-brand-pepper text-brand-white-smoke text-[1.7vw] md:text-[13px] lg:text-sm xl:text-[13px] 2xl:text-[0.9vw] rounded-md md:rounded-lg px-[6%] py-[6%] md:px-[6%] md:py-[6%] ñg:px-[7%] lg:py-[7%] xl:px-[10%] xl:py-[10%]'
 							onClick={onOpen}
 							aria-label='Toggle Menu'
 						>
-							<svg
-								xmlns='http://www.w3.org/2000/svg'
-								fill='none'
-								viewBox='0 0 24 24'
-								strokeWidth={1.5}
-								stroke='#222'
-								className='w-[4vh] xl:w-[5vh] h-auto'
-							>
-								<path
-									strokeLinecap='round'
-									strokeLinejoin='round'
-									d='M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5'
-								/>
-							</svg>
+								Revistas Editoriales
 						</button>
 					</div>
 					{/* Logo */}
@@ -90,7 +77,7 @@ const HeaderComp = ({ isOpen, onOpen, onClose }) => {
 						<p className='hidden md:block font-poppins text-center text-[3.6vw] md:text-[2.5vw] lg:text-[2.1vw] xl:text-[2vw] text-brand-pepper'>
 							Boletín Informativo
 						</p>
-						<div className='not-selectable w-[27vw] md:w-[7.5vh] lg:w-[9vw] xl:w-[10vw] h-auto mr-[10%] md:mr-[1%] md:ml-[1%]'>
+						<div className='not-selectable w-[27vw] md:w-[9vh] lg:w-[9vw] xl:w-[10vw] h-auto mr-[10%] md:mr-[1%] md:ml-[1%]'>
 							<Link href='/' rel='noopener noreferrer' passHref>
 								<Image
 									width={909}
@@ -102,7 +89,7 @@ const HeaderComp = ({ isOpen, onOpen, onClose }) => {
 							</Link>
 						</div>
 					</div>
-					<div className='not-selectable w-[30vw] lg:w-[18vw] xl:w-[14vw] h-auto'>
+					<div className='not-selectable w-[30vw] lg:w-[22vw] xl:w-[15vw] h-auto'>
 						<Link
 							href='https://icpnl.org.mx/afiliacion/'
 							rel='noopener noreferrer'
@@ -143,27 +130,27 @@ const HeaderComp = ({ isOpen, onOpen, onClose }) => {
 							</DrawerHeader>
 							<DrawerBody>
 								<p className='3xl:text-xl my-[3%]'>
-									En este apartado podrás navegar a todos los sitios,
-									noticieros y revistas relevantes para el ICPNL
+									En este apartado podrás navegar a todos los sitios, noticieros
+									y revistas relevantes para el ICPNL
 								</p>
 								<div className='flex flex-col items-center justify-center w-full h-auto pt-[3%]'>
 									<div className='flex flex-col items-start justify-between w-full gap-y-[2vh]'>
-                  {mediaDIN && (
-												<a
-													href={dinDescription}
-													rel='noopMAG noreferrer'
-													target='_blank'
-                          className=''
-												>
-													<Image
-														src={mediaDIN.sourceUrl}
-														alt={mediaDIN.altText}
-														width={mediaDIN.mediaDetails?.width}
-														height={mediaDIN.mediaDetails?.height}
-                            className='object-contain'
-													/>
-												</a>
-											)}
+										{mediaDIN && (
+											<a
+												href={dinDescription}
+												rel='noopMAG noreferrer'
+												target='_blank'
+												className=''
+											>
+												<Image
+													src={mediaDIN.sourceUrl}
+													alt={mediaDIN.altText}
+													width={mediaDIN.mediaDetails?.width}
+													height={mediaDIN.mediaDetails?.height}
+													className='object-contain'
+												/>
+											</a>
+										)}
 										{mediaLOC && (
 											<a
 												href={locDescription}
@@ -175,7 +162,7 @@ const HeaderComp = ({ isOpen, onOpen, onClose }) => {
 													alt={mediaLOC.altText}
 													width={mediaLOC.mediaDetails?.width}
 													height={mediaLOC.mediaDetails?.height}
-                          className='object-contain'
+													className='object-contain'
 												/>
 											</a>
 										)}
@@ -190,7 +177,7 @@ const HeaderComp = ({ isOpen, onOpen, onClose }) => {
 													alt={mediaACC.altText}
 													width={mediaACC.mediaDetails?.width}
 													height={mediaACC.mediaDetails?.height}
-                          className='object-contain'
+													className='object-contain'
 												/>
 											</a>
 										)}
@@ -206,7 +193,7 @@ const HeaderComp = ({ isOpen, onOpen, onClose }) => {
 													alt={mediaMAG.altText}
 													width={mediaMAG.mediaDetails?.width}
 													height={mediaMAG.mediaDetails?.height}
-                          className='object-contain '
+													className='object-contain '
 												/>
 											</a>
 										)}

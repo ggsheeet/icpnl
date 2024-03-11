@@ -158,6 +158,16 @@ export default function Home() {
 				<meta name='description' content='Boletín diario para ICPNL' />
 				<meta name='viewport' content='width=device-width, initial-scale=1' />
 				<link rel='icon' href='/icpnl-ico.svg' />
+				<meta property='og:title' content='ICPNL Boletín' />
+				<meta property='og:type' content='website' />
+				<meta
+					property='og:url'
+					content='https://www.imdb.com/title/tt0117500/'
+				/>
+				<meta
+					property='og:image'
+					content='https://ia.media-imdb.com/images/rock.jpg'
+				/>
 			</Head>
 			<div className='bg-brand-white-smoke'>
 				<HeaderComp onOpen={onOpen} isOpen={isOpen} onClose={onClose} />
@@ -167,8 +177,9 @@ export default function Home() {
 						Boletín de Noticias Diario ({currentDate})
 					</p>
 				</div>
-
-				<CoursesComp />
+				<div className='p-[1rem]'>
+					<CoursesComp />
+				</div>
 				<NewsSlider articles={newsArticles} />
 				<div className='flex items-center justify-center md:hidden pt-[4%] mx-[3.6%] text-[1.7vh] text-center text-brand-pepper font-medium'>
 					<ChevronLeftIcon width='6vw' height='6vw' />
@@ -187,9 +198,9 @@ export default function Home() {
 					))}
 				</div>
 
-				<CategorySelect articles={newsArticles} />
-
 				<PresSSATPod />
+
+				<CategorySelect articles={newsArticles} />
 
 				<FoliosComp />
 
