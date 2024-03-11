@@ -73,8 +73,8 @@ const CategoryPage = () => {
 				<meta property='og:title' content='ICPNL Boletín' />
 				<meta property='og:type' content='website' />
 				<meta property='og:url' content='https://icpnl.vercel.app' />
-				<meta property='og:image' content='/icpnl-ico.svg' />
-				<meta property="og:image:type" content="image/svg" />
+				<meta property='og:image' content='/icpnl-og.png' />
+				<meta property="og:image:type" content="image/png" />
 				<meta property='og:image:width' content='1200' />
 				<meta property='og:image:height' content='630' />
       </Head>
