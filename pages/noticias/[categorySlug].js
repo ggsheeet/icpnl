@@ -67,20 +67,16 @@ const CategoryPage = () => {
     <>
       <Head>
       <title>ICPNL Boletín</title>
-				<meta name='description' content={`Boletín Diario ICPNL | ${currentDate}`} />
+				<meta name='description' content='Boletín Diario ICPNL' />
 				<meta name='viewport' content='width=device-width, initial-scale=1' />
 				<link rel='icon' href='/icpnl-ico.svg' />
 				<meta property='og:title' content='ICPNL Boletín' />
-				<meta
-					property='og:description'
-					content={`Boletín Diario ICPNL | ${currentDate}`}
-				/>
 				<meta property='og:type' content='website' />
 				<meta property='og:url' content='https://icpnl.vercel.app' />
-				<meta
-					property='og:image'
-					content='https://icpnl.vercel.app/icpnl-ico.svg'
-				/>
+				<meta property='og:image' content='/icpnl-ico.svg' />
+				<meta property="og:image:type" content="image/svg" />
+				<meta property='og:image:width' content='1200' />
+				<meta property='og:image:height' content='630' />
       </Head>
       <div className="bg-brand-white-smoke">
         <HeaderOther />
