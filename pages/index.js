@@ -164,7 +164,7 @@ export default function Home() {
 				/>
 				<meta name='viewport' content='width=device-width, initial-scale=1' />
 				<link rel='icon' href='/icpnl-ico.svg' />
-				<meta property='og:title' content='ICPNL Boletín Informativo' />
+				<meta property='og:title' content='¿Cuando estoy obligado a presentar la declaración anual por sueldos y salarios?' />
 				<meta
 					property='og:description'
 					content='Boletín Diario ICPNL'
