@@ -209,12 +209,12 @@ export default function Home() {
 
 				<FoliosComp />
 
-				<div className='flex items-center justify-center gap-x-[6%] mt-[5%] '>
+				<div className='flex items-center justify-center gap-x-[3%] md:gap-x-[6%] mt-[5%] '>
 					<Link
 						href='https://icpnl.org.mx/blog/'
 						rel='noopener noreferrer'
 						target='_blank'
-						className='bg-brand-pepper py-[1%] px-[2%] rounded-lg text-brand-white-smoke hover:bg-brand-icpnl-red text-xl lg:text-2xl font-medium'
+						className='bg-brand-pepper py-[1%] px-[2%] rounded-lg text-brand-white-smoke hover:bg-brand-icpnl-red text-base lg:text-2xl font-medium'
 					>
 						Visita nuestro Blog
 					</Link>
@@ -222,7 +222,7 @@ export default function Home() {
 						href='https://www.linkedin.com/newsletters/entre-contadores-4-0-7106014018879815680'
 						rel='noopener noreferrer'
 						target='_blank'
-						className='bg-[#2f478b] py-[1%] px-[2%] rounded-lg text-brand-white-smoke hover:bg-brand-icpnl-red text-xl lg:text-2xl font-medium'
+						className='bg-[#2f478b] py-[1%] px-[2%] rounded-lg text-brand-white-smoke hover:bg-brand-icpnl-red text-base lg:text-2xl font-medium'
 					>
 						Newsletter en Linkedin
 					</Link>
