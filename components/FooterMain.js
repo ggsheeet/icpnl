@@ -43,9 +43,6 @@ const FooterMain = () => {
       >
         +52 938 381 1400
       </a> */}
-			<p className='font-bold text-brand-pepper text-[1.5vh] md:text-[2.3vh] pb-[3%] md:pb-[1%]'>
-				MATERIAL PARA USO EXCLUSIVO DE ICPNL
-			</p>
 			<p className='text-center text-[0.9vh] md:text-[1.2vh] text-[#777]'>
 				<a
 					href='https://icpnl.org.mx/'

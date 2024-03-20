@@ -10,6 +10,7 @@ import PresSSATPod from '@/components/PressSATPod'
 import FooterMain from '@/components/FooterMain'
 import { useQuery } from '@apollo/client'
 import {
+	GET_POSTS_FIR,
 	GET_POSTS_FIS,
 	GET_POSTS_LAB,
 	GET_POSTS_CE,
@@ -22,6 +23,7 @@ import { ChevronLeftIcon, ChevronRightIcon } from '@chakra-ui/icons'
 import { Center, Divider, Button, useDisclosure } from '@chakra-ui/react'
 import FoliosComp from '@/components/FoliosComp'
 import BannersComp from '@/components/BannersComp'
+import HeroComp from '@/components/HeroComp'
 
 export default function Home() {
 	const { isOpen, onOpen, onClose } = useDisclosure()
@@ -176,16 +178,8 @@ export default function Home() {
 			</Head>
 			<div className='bg-brand-white-smoke'>
 				<HeaderComp onOpen={onOpen} isOpen={isOpen} onClose={onClose} />
-
-				<div className='flex bg-brand-white-smoke justify-center px-[10%] md:px-[3%] lg:px-[2%] py-[1%]'>
-					<p className='font-extrabold font-figtree text-brand-icpnl-red text-center text-[2.5vh] md:text-[2.5vw] lg:text-[1.4vw] border-b-[0.36vh] border-b-brand-pepper pb-[3%] md:pb-[0.5%]'>
-						Boletín de Noticias Diario ({currentDate})
-					</p>
-				</div>
-				<div className='p-[1rem]'>
-					<CoursesComp />
-				</div>
-				<BannersComp />
+				<HeroComp />
+				
 				<NewsSlider articles={newsArticles} />
 				<div className='flex items-center justify-center md:hidden pt-[4%] mx-[3.6%] text-[1.7vh] text-center text-brand-pepper font-medium'>
 					<ChevronLeftIcon width='6vw' height='6vw' />
@@ -203,6 +197,11 @@ export default function Home() {
 						</Link>
 					))}
 				</div>
+				<div className='p-[1rem]'>
+					<CoursesComp />
+				</div>
+
+				<BannersComp />
 
 				<PresSSATPod />
 

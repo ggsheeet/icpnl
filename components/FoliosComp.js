@@ -3,7 +3,7 @@ import React from 'react'
 const FoliosComp = () => {
 	return (
 		<div className='flex flex-col items-center justify-center w-full font-bold pt-[4vh] text-sm md:text-base xl:text-lg'>
-			<p className='w-[88vw] md:w-[82vw] lg:w-[80vw] max-w-[1440px] bg-brand-icpnl-red text-center text-brand-white-smoke mb-[2vh]'>
+			<p className='w-[88vw] md:w-[82vw] lg:w-[82vw] max-w-[1440px] bg-brand-icpnl-red text-center text-brand-white-smoke mb-[2vh]'>
 				FOLIOS IMCP
 			</p>
 			<table className='w-[88vw] md:w-[82vw] lg:w-[80vw] max-w-[1440px] text-xs md:text-sm xl:text-base'>

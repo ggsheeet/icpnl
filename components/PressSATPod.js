@@ -40,10 +40,9 @@ const PressSATPod = () => {
 
 	return (
 		<div className='flex items-center justify-center'>
-			<div className='flex flex-row flex-wrap items-center justify-center w-[88vw] bg-brand-white-smoke gap-[2vw] pt-[10%] md:pt-[2%] pb-[1.5%]'>
-				<div className='flex gap-[2vw] w-full lg:w-[40%] max-w-[790px] md:max-w-[720px] lg:max-w-[627px] xl:max-w-[790px] 2xl:xl:max-w-[627px]'>
+			<div className='flex flex-col md:flex-row items-center justify-center w-[83vw] md:w-[88vw] bg-brand-white-smoke gap-y-[4vh] md:gap-y-0 md:gap-[2vw] pt-[10%] md:pt-[2%] pb-[1.5%]'>
 					{mediaPRESS && mediaPRESS.altText && (
-						<a href={pressDescription} rel='noopMAG noreferrer' target='_blank' className='w-[50%] h-auto'>
+						<a href={pressDescription} rel='noopener noreferrer' target='_blank' className='w-full md:w-[30%]' >
 							<Image
 								src={mediaPRESS.sourceUrl}
 								alt={mediaPRESS.altText}
@@ -54,7 +53,7 @@ const PressSATPod = () => {
 						</a>
 					)}
 					{mediaSAT && mediaSAT.altText && (
-						<a href={satDescription} rel='noopener noreferrer' target='_blank' className='w-[50%] h-auto'>
+						<a href={satDescription} rel='noopener noreferrer' target='_blank' className='w-full md:w-[30%]' >
 							<Image
 								src={mediaSAT.sourceUrl}
 								alt={mediaSAT.altText}
@@ -64,10 +63,8 @@ const PressSATPod = () => {
 							/>
 						</a>
 					)}
-				</div>
-				<div className='w-full lg:w-[52%] max-w-[790px] md:max-w-[720px] lg:max-w-[790px]'>
 					{mediaPOD && mediaPOD.altText && (
-						<div className='relative'>
+						<div className='relative w-full md:w-[30%]'>
 							<Image
 								src={mediaPOD.sourceUrl}
 								alt={mediaPOD.altText}
@@ -76,29 +73,28 @@ const PressSATPod = () => {
 								className='object-contain rounded-lg w-full h-auto z-10'
 							/>
 							<a
-								href='http://tinyurl.com/2fwxu6nt'
+								href='https://tinyurl.com/icpnl-spotify'
 								rel='noopener noreferrer'
 								target='_blank'
 								alt='spotify'
-								className='absolute top-[79.2%] left-[3.85%] w-[28.5%] h-[11.1%] bg-transparent z-30'
+								className='absolute top-[87.5%] left-[5.8%] w-[28%] h-[4.8%] bg-transparent z-30'
 							></a>
 							<a
-								href='http://tinyurl.com/4wd5rd7s'
+								href='https://tinyurl.com/icpnl-youtube'
 								rel='noopener noreferrer'
 								target='_blank'
 								alt='youtube'
-								className='absolute top-[79.2%] left-[35.8%] w-[28.5%] h-[11.1%] bg-transparent z-30'
+								className='absolute top-[87.5%] left-[35%] w-[28%] h-[4.8%] bg-transparent z-30'
 							></a>
 							<a
-								href='http://tinyurl.com/bdd92upn'
+								href='https://tinyurl.com/icpnl-apple'
 								rel='noopener noreferrer'
 								target='_blank'
 								alt='apple'
-								className='absolute top-[79.2%] left-[67.6%] w-[28.5%] h-[11.1%] bg-transparent z-30'
+								className='absolute top-[87.5%] left-[64.3%] w-[28%] h-[4.8%] bg-transparent z-30'
 							></a>
 						</div>
 					)}
-				</div>
 			</div>
 		</div>
 	)

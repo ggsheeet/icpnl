@@ -3,6 +3,7 @@ import Image from 'next/image'
 import { useQuery } from '@apollo/client'
 import { GET_C_FIR, GET_C_SEC, GET_C_THI } from '@/lib/queries'
 import CourseSlider from './CourseSlider'
+import { Skeleton, SkeletonText } from '@chakra-ui/react'
 
 const CoursesComp = () => {
 	const {
@@ -62,7 +63,24 @@ const CoursesComp = () => {
 				</a>
 			)
 		})
-	return <CourseSlider items={formattedItems} />
+	return (
+		<>
+			{loadingFIR | loadingSEC | loadingTHI ? (
+				Array.from({ length: 1 }).map((_, index) => (
+					<div key={index} className='p-4'>
+						<Skeleton
+							height={{ base: '50vw', md: '40vw', lg: '30vw' }}
+							mb='4'
+							rounded='md'
+						/>
+						<SkeletonText mt='2' spacing='2' />
+					</div>
+				))
+			) : (
+				<CourseSlider items={formattedItems} />
+			)}
+		</>
+	)
 }
 
 export default CoursesComp
