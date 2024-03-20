@@ -171,7 +171,7 @@ export default function Home() {
 				/>
 				<meta property='og:type' content='website' />
 				<meta property='og:url' content='https://icpnl.vercel.app' />
-				<meta property='og:image' content='/consejos.jpg' />
+				<meta property='og:image' content='/consejos.png' />
 				<meta property="og:image:type" content="image/jpg" />
 				<meta property='og:image:width' content='1200' />
 				<meta property='og:image:height' content='630' />
