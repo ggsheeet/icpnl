@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import Link from 'next/link'
 import { useQuery } from '@apollo/client'
 import { GET_POSTS_FIR } from '@/lib/queries'
@@ -11,11 +11,7 @@ const HeroComp = () => {
 		data: dataFIR
 	} = useQuery(GET_POSTS_FIR)
 	const article = dataFIR?.posts?.nodes[0]
-
-	useEffect(() => {
-		console.log(article)
-	}, [article])
-
+	
 	return (
 		<>
 			{loadingFIR ? (
