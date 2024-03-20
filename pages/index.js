@@ -160,19 +160,19 @@ export default function Home() {
 				<title>ICPNL Boletín</title>
 				<meta
 					name='description'
-					content='Boletín Diario ICPNL | 12 de Marzo 2024'
+					content='Boletín Diario ICPNL'
 				/>
 				<meta name='viewport' content='width=device-width, initial-scale=1' />
 				<link rel='icon' href='/icpnl-ico.svg' />
-				<meta property='og:title' content='ICPNL Boletín' />
+				<meta property='og:title' content='ICPNL Boletín Informativo' />
 				<meta
 					property='og:description'
-					content='Boletín Diario ICPNL | 12 de Marzo 2024'
+					content='Boletín Diario ICPNL'
 				/>
 				<meta property='og:type' content='website' />
 				<meta property='og:url' content='https://icpnl.vercel.app' />
-				<meta property='og:image' content='/icpnl-og.png' />
-				<meta property="og:image:type" content="image/png" />
+				<meta property='og:image' content='/consejos.jpg' />
+				<meta property="og:image:type" content="image/jpg" />
 				<meta property='og:image:width' content='1200' />
 				<meta property='og:image:height' content='630' />
 			</Head>
@@ -209,21 +209,23 @@ export default function Home() {
 
 				<FoliosComp />
 
-				<div className='flex items-center justify-center'>
-					<Button
-						onClick={onOpen}
-						bgColor='brand.1400'
-						color='#FFFFFF'
-						_hover={{ bg: 'brand.1200' }}
-						variant='solid'
-						size={{ base: 'md', md: 'lg' }}
-						h={{ base: '7vh', lg: '6vh', xl: '7vh' }}
-						fontSize={{ base: 'xs', md: 'md', xl: 'lg' }}
-						mt='5%'
-						borderRadius={{ base: '2vw', lg: '1vw' }}
+				<div className='flex items-center justify-center gap-x-[6%] mt-[5%] '>
+					<Link
+						href='https://icpnl.org.mx/blog/'
+						rel='noopener noreferrer'
+						target='_blank'
+						className='bg-brand-pepper py-[1%] px-[2%] rounded-lg text-brand-white-smoke hover:bg-brand-icpnl-red text-xl lg:text-2xl font-medium'
 					>
-						Revistas Editoriales & Sitios Relevantes
-					</Button>
+						Visita nuestro Blog
+					</Link>
+					<Link
+						href='https://www.linkedin.com/newsletters/entre-contadores-4-0-7106014018879815680'
+						rel='noopener noreferrer'
+						target='_blank'
+						className='bg-[#2f478b] py-[1%] px-[2%] rounded-lg text-brand-white-smoke hover:bg-brand-icpnl-red text-xl lg:text-2xl font-medium'
+					>
+						Newsletter en Linkedin
+					</Link>
 				</div>
 				<FooterMain />
 			</div>

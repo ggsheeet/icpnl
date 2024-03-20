@@ -43,18 +43,18 @@ const FooterMain = () => {
       >
         +52 938 381 1400
       </a> */}
-			<p className='text-center text-[0.9vh] md:text-[1.2vh] text-[#777]'>
+			<p className='text-center text-[1.1vh] md:text-[1.4vh] text-[#777]'>
 				<a
 					href='https://icpnl.org.mx/'
 					rel='noopener noreferrer'
 					target='_blank'
-					className='text-[#333] mt-[2vh] underline underline-offset-2'
+					className='text-blue-700 mt-[2vh] underline underline-offset-2'
 				>
 					Instituto de Contadores Públicos de Nuevo León
 				</a>{' '}
 				| (81) 8347-0025
 			</p>
-			<p className='text-center text-[0.9vh] md:text-[1.2vh] text-[#777] pb-[2.5vh]'>
+			<p className='text-center text-[1.1vh] md:text-[1.4vh] text-[#777] pb-[2.5vh]'>
 				Calle Justo Sierra 322, Col. San Jemo, Monterrey, N.L. C.P. 64630
 			</p>
 			<p className='font-medium text-gray-700 text-[0.9vh] md:text-[1.2vh] pb-[0.5%]'>

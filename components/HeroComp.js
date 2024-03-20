@@ -20,13 +20,17 @@ const HeroComp = () => {
 		<>
 			{loadingFIR ? (
 				Array.from({ length: 1 }).map((_, index) => (
-					<div key={index} className='p-4'>
+					<div
+						key={index}
+						className='flex flex-col items-center justify-center p-4'
+					>
 						<Skeleton
+							width={{ base: '90vw' }}
 							height={{ base: '60vw', md: '34vw', lg: '27vw', xl: '24vw' }}
 							mb='4'
 							rounded='md'
 						/>
-						<SkeletonText mt='2' spacing='2' />
+						<SkeletonText width={{ base: '90vw' }} mt='2' spacing='2' />
 					</div>
 				))
 			) : (
@@ -34,38 +38,39 @@ const HeroComp = () => {
 					<div className='flex flex-col md:flex-row items-center justify-center w-[88vw] md:w-[96vw] gap-x-[2vw]'>
 						<Link
 							href={`/nota/${article?.slug}`}
-							className='relative flex flex-col items-center justify-center w-full md:w-[40%] lg:w-[47.1%] xl:w-[49.1%] 2xl:w-[59.4%] h-[64vw] md:h-[38vw] lg:h-[31vw] xl:h-[28vw] 2xl:h-[45vh]'
+							className='relative flex flex-col items-center justify-center w-full md:w-[40%] lg:w-[47.1%] xl:w-[52.7%] 2xl:w-[52.7%] h-[64vw] md:h-[38vw] lg:h-[31vw] xl:h-[28vw]'
 						>
 							<img
 								src={article?.featuredImage.node.sourceUrl}
-								className='absolute not-selectable top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] inset-0 w-full h-[60vw] md:h-[35vw] lg:h-[28vw] xl:h-[25vw] 2xl:h-[42vh] object-cover mb-4 rounded-md z-20'
+								className='absolute not-selectable top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] inset-0 w-full h-[60vw] md:h-[31.7vw] lg:h-[28vw] xl:h-[25vw] object-cover mb-4 rounded-md z-20'
 								alt={article?.title}
 							/>
-							<div className='absolute bg-black opacity-50 not-selectable top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] inset-0 w-full h-[60vw] md:h-[35vw] lg:h-[28vw] xl:h-[25vw] 2xl:h-[42vh] object-cover mb-4 rounded-md z-20' />
-							<p className='absolute w-full font-medium text-center text-brand-white-smoke text-[5vw] md:text-[3vw] lg:text-[3vw] xl:text-[2.3vw] top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] z-30'>
+							<div className='absolute bg-black opacity-50 not-selectable top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] inset-0 w-full h-[60vw] md:h-[31.7vw] lg:h-[28vw] xl:h-[25vw] object-cover mb-4 rounded-md z-20' />
+							<p className='absolute w-[80%] font-medium text-center text-brand-white-smoke text-[5vw] md:text-[3vw] lg:text-[3vw] xl:text-[2.3vw] top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] z-30'>
 								{article?.title}
 							</p>
 						</Link>
-						<div className='relative w-full md:w-[60%] lg:w-[52.9%] xl:w-[47.2%] 2xl:w-[50.9%] h-[49.5vw] md:h-[35vw] lg:h-[28vw] xl:h-[25vw] 2xl:h-[42vh]'>
+						<div className='relative w-full md:w-[60%] lg:w-[52.9%] xl:w-[47.3%] 2xl:w-[47.3%] h-[49.5vw] md:h-[31.7vw] lg:h-[28vw] xl:h-[25vw]'>
 							<iframe
 								width='100%'
 								height='100%'
 								src='https://www.youtube.com/embed/zkDGaaVYNYs?autoplay=1&mute=1'
 								frameborder='0'
 								allowfullscreen
-                                className='rounded-md'
-							>
-                               
-                            </iframe>
-                            <a
+								loop
+								className='rounded-md'
+							></iframe>
+							<a
 								href='https://tinyurl.com/icpnl-youtube'
 								rel='noopener noreferrer'
 								target='_blank'
 								alt='youtube'
 								className='absolute inline-flex items-center justify-center text-center text-[#323232] top-[3%] md:top-[6%] lg:top-[3%] right-[1%] translate-x-[-10%] w-[27%] lg:w-[20%] h-auto bg-[#FFF] bg-opacity-[0.8] rounded-lg z-50 py-[0.5%] px-[2%] lg:px-[1%]'
 							>
-                                <p className='font-semibold text-[12px] lg:text-[13px]'>Ir a canal de youtube</p>
-                            </a>
+								<p className='font-semibold text-[12px] lg:text-[13px]'>
+									Ir a canal de youtube
+								</p>
+							</a>
 						</div>
 					</div>
 				</div>

@@ -55,7 +55,7 @@ const BannersComp = () => {
 						alt={media.altText}
 						width={media.mediaDetails?.width}
 						height={media.mediaDetails?.height}
-						className='w-[85vw] md:w-auto h-auto md:h-[13vh] lg:h-[9.5vh] xl:h-[11.7vh] 2xl:h-[14vh]'
+						className='w-full md:w-auto h-auto md:h-[17vw] lg:h-[8.4vw] xl:h-[8.4vw] 2xl:h-[8.4vw]'
 						priority
 					/>
 				</a>
@@ -64,7 +64,7 @@ const BannersComp = () => {
 
 	return (
 		<div className='flex items-center justify-center w-full py-[0.9vh] md:py-[2vh] lg:py-[4.9vh]'>
-			<ul className='flex flex-wrap items-center justify-evenly w-full lg:w-[83vw]'>
+			<ul className='flex flex-wrap items-center justify-evenly w-[87vw]'>
 				{formattedItems.map((banner, index) => (
 					<li key={index}>{banner}</li>
 				))}
