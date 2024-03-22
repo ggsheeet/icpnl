@@ -19,7 +19,7 @@ import {
 	GET_POSTS_FIN,
 	GET_POSTS_RSE
 } from '@/lib/queries'
-import { ChevronLeftIcon, ChevronRightIcon } from '@chakra-ui/icons'
+import { ChevronDownIcon, ChevronLeftIcon, ChevronRightIcon } from '@chakra-ui/icons'
 import { Center, Divider, Button, useDisclosure } from '@chakra-ui/react'
 import FoliosComp from '@/components/FoliosComp'
 import BannersComp from '@/components/BannersComp'
@@ -179,14 +179,18 @@ export default function Home() {
 			<div className='bg-brand-white-smoke'>
 				<HeaderComp onOpen={onOpen} isOpen={isOpen} onClose={onClose} />
 				<HeroComp />
-				
+				<div className='flex items-center justify-center mt-8 md:mt-0'>
+				<ChevronDownIcon width='30px' height='30px' />
+				<p className='text-center text-brand-pepper text-[21px] md:text-[23px] font-poppins w-[78%] md:w-fit'>Selecciona una categoría diferente</p>
+				<ChevronDownIcon width='30px' height='30px' />
+				</div>
 				<NewsSlider articles={newsArticles} />
-				<div className='flex items-center justify-center md:hidden pt-[4%] mx-[3.6%] text-[1.7vh] text-center text-brand-pepper font-medium'>
-					<ChevronLeftIcon width='6vw' height='6vw' />
-					<p className='px-[1%]'>
-						Desliza para navegar entre las diferentes categorías
+				<div className='flex items-center justify-center mb-5 text-center text-brand-pepper font-poppins'>
+					<ChevronLeftIcon width='25px' height='25px' />
+					<p className='text-center text-brand-pepper text-[20px] md:text-[22px] font-poppins w-[80%] md:w-fit'>
+						Haz click en una categoría para navegar a sus notas
 					</p>
-					<ChevronRightIcon width='6vw' height='6vw' />
+					<ChevronRightIcon width='25px' height='25px' />
 				</div>
 				<div className='flex justify-start md:justify-center space-x-[2vw] px-[4%] md:px-[1%] pt-[4%] pb-[4%] md:pt-[2%] md:pb-[3%] lg:pt-[1%] lg:pb-[2%] bg-brand-white-smoke font-figtree font-medium overflow-x-auto'>
 					{categoriesArray.map((category) => (

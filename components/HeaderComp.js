@@ -68,7 +68,7 @@ const HeaderComp = ({ isOpen, onOpen, onClose }) => {
 					{/* Logo */}
 					<div className='flex items-center justify-center w-full gap-x-3'>
 						<p className='hidden md:block font-poppins text-center text-[3.6vw] md:text-[2.5vw] lg:text-[2.1vw] xl:text-[2vw] text-brand-pepper'>
-							Boletín Informativo
+							Boletín Diario
 						</p>
 						<div className='not-selectable w-[36vw] md:w-[13vh] lg:w-[9vw] xl:w-[10vw] h-auto mr-[10%] md:mr-[1%] md:ml-[1%]'>
 							<Link href='/' rel='noopener noreferrer' passHref>

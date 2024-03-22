@@ -33,7 +33,7 @@ const HeaderComp = () => {
           {/* Logo */}
           <div className="flex items-center justify-center w-full gap-x-4">
             <p className="hidden md:block font-poppins text-center text-[3.6vw] md:text-[2.5vw] lg:text-[2.1vw] xl:text-[1.85vw] text-brand-pepper mt-[1%]">
-              Boletín Informativo
+              Boletín Diario
             </p>
             <div className="not-selectable w-[20vw] md:w-[7.5vh] lg:w-[9vw] xl:w-[10vw] h-auto mr-[11%] md:mr-[1%] md:ml-[1%] md:mt-[1%]">
               <Link href="/" rel="noopener noreferrer" passHref>
