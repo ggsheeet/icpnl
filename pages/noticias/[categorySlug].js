@@ -66,11 +66,11 @@ const CategoryPage = () => {
   return (
     <>
       <Head>
-      <title>ICPNL Boletín</title>
+      <title>ICPNL Boletín Diario</title>
 				<meta name='description' content='Boletín Diario ICPNL' />
 				<meta name='viewport' content='width=device-width, initial-scale=1' />
 				<link rel='icon' href='/icpnl-ico.svg' />
-				<meta property='og:title' content='ICPNL Boletín' />
+				<meta property='og:title' content='ICPNL Boletín Diario' />
 				<meta property='og:type' content='website' />
 				<meta property='og:url' content='https://icpnl.vercel.app' />
 				<meta property='og:image' content='/icpnl-og.png' />

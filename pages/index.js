@@ -157,7 +157,7 @@ export default function Home() {
 	return (
 		<>
 			<Head>
-				<title>ICPNL Boletín</title>
+				<title>ICPNL Boletín Diario</title>
 				<meta
 					name='description'
 					content='Boletín Diario ICPNL'
