@@ -164,14 +164,14 @@ export default function Home() {
 				/>
 				<meta name='viewport' content='width=device-width, initial-scale=1' />
 				<link rel='icon' href='/icpnl-ico.svg' />
-				<meta property='og:title' content='¿Cuando estoy obligado a presentar la declaración anual por sueldos y salarios?' />
+				<meta property='og:title' content='Revisa que tu firma electrónica esté vigente para la declaración anual' />
 				<meta
 					property='og:description'
 					content='Boletín Diario ICPNL'
 				/>
 				<meta property='og:type' content='website' />
 				<meta property='og:url' content='https://icpnl.vercel.app' />
-				<meta property='og:image' content='/consejos.png' />
+				<meta property='og:image' content='/vigenciaefirma.png' />
 				<meta property="og:image:type" content="image/jpg" />
 				<meta property='og:image:width' content='1200' />
 				<meta property='og:image:height' content='630' />

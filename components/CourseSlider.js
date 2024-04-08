@@ -83,7 +83,7 @@ const CourseSlider = ({ items }) => {
 						{...swipeHandlers}
 					>
 						{items.map((item, index) => (
-							<Box key={index} width='100%'>
+							<Box key={index} width='100%' display='flex' alignItems='center'>
 								{item}
 							</Box>
 						))}

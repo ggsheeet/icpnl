@@ -8,6 +8,39 @@ const FoliosComp = () => {
 			</p>
 			<table className='w-[88vw] md:w-[82vw] lg:w-[80vw] max-w-[1440px] text-xs md:text-sm xl:text-base'>
 				<tbody>
+				<tr>
+						<td>
+						Folio No.: 28/2023-2024 Aviso de dictamen de Seguro Social en 2024 
+						correspondiente al ejercicio 2023
+						</td>
+						<td>5 de abril, 2024</td>
+						<td>
+							<a
+								href='https://imcp.org.mx/wp-content/uploads/2024/04/Folio-28.-Aviso-de-dictamen-de-Seguro-Social-en-2024-correspondiente-al-ejercicio-2023.pdf'
+								rel='noopener noreferrer'
+								target='_blank'
+							>
+								Ver Folio
+							</a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+						Folio No.: 27/2023-2024 Invitación al webinar de capacitación empresarial 
+						2024 impartido por el INFONAVIT: “Cómo cumplir con el INFONAVIT y opciones 
+						de Financiamiento”.
+						</td>
+						<td>3 de abril, 2024</td>
+						<td>
+							<a
+								href='https://imcp.org.mx/folio-no-27-2023-2024-invitacion-al-webinar-de-capacitacion-empresarial-2024-impartido-por-el-infonavit-como-cumplir-con-el-infonavit-y-opciones-de-financiamiento/'
+								rel='noopener noreferrer'
+								target='_blank'
+							>
+								Ver Folio
+							</a>
+						</td>
+					</tr>
 					<tr>
 						<td>
 							Folio No.: 17/2023-2024 Presentación de constancia que acredita el
