@@ -152,7 +152,7 @@ export default function Home() {
 				}))
 				.sort((a, b) => new Date(a.date) - new Date(b.date))
 		})
-	) 
+	)
 
 	return (
 		<>
