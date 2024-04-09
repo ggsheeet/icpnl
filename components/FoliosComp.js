@@ -8,10 +8,43 @@ const FoliosComp = () => {
 			</p>
 			<table className='w-[88vw] md:w-[82vw] lg:w-[80vw] max-w-[1440px] text-xs md:text-sm xl:text-base'>
 				<tbody>
-				<tr>
+					<tr>
 						<td>
-						Folio No.: 28/2023-2024 Aviso de dictamen de Seguro Social en 2024 
-						correspondiente al ejercicio 2023
+							Folio No.: 30/2023-2024 Disposiciones por considerar para la
+							presentación del informe fiscal del auditor 2023, elaborado por la
+							Comisión Regional Centro-Occidente
+						</td>
+						<td>8 de abril, 2024</td>
+						<td>
+							<a
+								href='https://imcp.org.mx/folio-no-30-2023-2024-disposiciones-por-considerar-para-la-presentacion-del-informe-fiscal-del-auditor-2023-elaborado-por-la-comision-regional-centro-occidente/'
+								rel='noopener noreferrer'
+								target='_blank'
+							>
+								Ver Folio
+							</a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							Folio No.: 29/2023-2024 Aviso de Dictamen de INFONAVIT 2023 de
+							manera presencial o por correo electrónico
+						</td>
+						<td>8 de abril, 2024</td>
+						<td>
+							<a
+								href='https://imcp.org.mx/folio-no-29-2023-2024-aviso-de-dictamen-de-infonavit-2023-de-manera-presencial-o-por-correo-electronico/'
+								rel='noopener noreferrer'
+								target='_blank'
+							>
+								Ver Folio
+							</a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							Folio No.: 28/2023-2024 Aviso de dictamen de Seguro Social en 2024
+							correspondiente al ejercicio 2023
 						</td>
 						<td>5 de abril, 2024</td>
 						<td>
@@ -26,9 +59,9 @@ const FoliosComp = () => {
 					</tr>
 					<tr>
 						<td>
-						Folio No.: 27/2023-2024 Invitación al webinar de capacitación empresarial 
-						2024 impartido por el INFONAVIT: “Cómo cumplir con el INFONAVIT y opciones 
-						de Financiamiento”.
+							Folio No.: 27/2023-2024 Invitación al webinar de capacitación
+							empresarial 2024 impartido por el INFONAVIT: “Cómo cumplir con el
+							INFONAVIT y opciones de Financiamiento”.
 						</td>
 						<td>3 de abril, 2024</td>
 						<td>

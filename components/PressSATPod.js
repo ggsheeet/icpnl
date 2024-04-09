@@ -77,21 +77,21 @@ const PressSATPod = () => {
 								rel='noopener noreferrer'
 								target='_blank'
 								alt='spotify'
-								className='absolute top-[87.5%] left-[5.8%] w-[28%] h-[4.8%] bg-transparent z-30'
+								className='absolute top-[78.7%] left-[11.2%] w-[18%] h-[18%] bg-transparent z-30 rounded-full'
 							></a>
 							<a
 								href='https://tinyurl.com/icpnl-youtube'
 								rel='noopener noreferrer'
 								target='_blank'
 								alt='youtube'
-								className='absolute top-[87.5%] left-[35%] w-[28%] h-[4.8%] bg-transparent z-30'
+								className='absolute top-[79.7%] left-[38%] w-[21.9%] h-[15.3%] bg-transparent z-30 rounded-lg'
 							></a>
 							<a
 								href='https://tinyurl.com/icpnl-apple'
 								rel='noopener noreferrer'
 								target='_blank'
 								alt='apple'
-								className='absolute top-[87.5%] left-[64.3%] w-[28%] h-[4.8%] bg-transparent z-30'
+								className='absolute top-[78.8%] left-[71.1%] w-[17.1%] h-[17%] bg-transparent z-30 rounded-xl'
 							></a>
 						</div>
 					)}
