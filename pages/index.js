@@ -19,7 +19,11 @@ import {
 	GET_POSTS_FIN,
 	GET_POSTS_RSE
 } from '@/lib/queries'
-import { ChevronDownIcon, ChevronLeftIcon, ChevronRightIcon } from '@chakra-ui/icons'
+import {
+	ChevronDownIcon,
+	ChevronLeftIcon,
+	ChevronRightIcon
+} from '@chakra-ui/icons'
 import { Center, Divider, Button, useDisclosure } from '@chakra-ui/react'
 import FoliosComp from '@/components/FoliosComp'
 import BannersComp from '@/components/BannersComp'
@@ -158,22 +162,18 @@ export default function Home() {
 		<>
 			<Head>
 				<title>ICPNL Boletín Diario</title>
-				<meta
-					name='description'
-					content='Boletín Diario ICPNL'
-				/>
+				<meta name='description' content='Boletín Diario ICPNL' />
 				<meta name='viewport' content='width=device-width, initial-scale=1' />
 				<link rel='icon' href='/icpnl-ico.svg' />
-				<meta property='og:title' content='¿Una factura con la ‘forma de pago’ incorrecta se puede deducir?
-' />
 				<meta
-					property='og:description'
-					content='Boletín Diario ICPNL'
+					property='og:title'
+					content='¿Cuándo se debe presentar el aviso para dictaminar el cumplimiento en materia del Seguro Social?'
 				/>
+				<meta property='og:description' content='Boletín Diario ICPNL' />
 				<meta property='og:type' content='website' />
 				<meta property='og:url' content='https://icpnl.vercel.app' />
-				<meta property='og:image' content='/sat.png' />
-				<meta property="og:image:type" content="image/jpg" />
+				<meta property='og:image' content='/segurosoc.png' />
+				<meta property='og:image:type' content='image/jpg' />
 				<meta property='og:image:width' content='1200' />
 				<meta property='og:image:height' content='630' />
 			</Head>
@@ -181,9 +181,11 @@ export default function Home() {
 				<HeaderComp onOpen={onOpen} isOpen={isOpen} onClose={onClose} />
 				<HeroComp />
 				<div className='flex items-center justify-center mt-8 md:mt-0'>
-				<ChevronDownIcon width='30px' height='30px' />
-				<p className='text-center text-brand-pepper text-[21px] md:text-[23px] font-poppins w-[78%] md:w-fit'>Selecciona una categoría diferente</p>
-				<ChevronDownIcon width='30px' height='30px' />
+					<ChevronDownIcon width='30px' height='30px' />
+					<p className='text-center text-brand-pepper text-[21px] md:text-[23px] font-poppins w-[78%] md:w-fit'>
+						Selecciona una categoría diferente
+					</p>
+					<ChevronDownIcon width='30px' height='30px' />
 				</div>
 				<NewsSlider articles={newsArticles} />
 				<div className='flex items-center justify-center mb-5 text-center text-brand-pepper font-poppins'>
