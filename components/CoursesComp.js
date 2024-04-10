@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import { useQuery } from '@apollo/client'
-import { GET_C_FIR, GET_C_SEC, GET_C_THI, GET_C_FOU, GET_C_FIV, GET_C_SIX } from '@/lib/queries'
+import { GET_C_FIR, GET_C_SEC, GET_C_THI, GET_C_FOU, GET_C_FIV, GET_C_SIX, GET_C_SEV, GET_C_EIG, GET_C_NIN } from '@/lib/queries'
 import CourseSlider from './CourseSlider'
 import { Skeleton, SkeletonText } from '@chakra-ui/react'
 
@@ -42,15 +42,36 @@ const CoursesComp = () => {
 		data: dataSIX
 	} = useQuery(GET_C_SIX)
 
-	const mediaFIR = dataFIR?.mediaItem || []
-	const mediaSEC = dataSEC?.mediaItem || []
-	const mediaTHI = dataTHI?.mediaItem || []
+	const {
+		loading: loadingSEV,
+		error: errorSEV,
+		data: dataSEV
+	} = useQuery(GET_C_SEV)
+
+	const {
+		loading: loadingEIG,
+		error: errorEIG,
+		data: dataEIG
+	} = useQuery(GET_C_EIG)
+
+	const {
+		loading: loadingNIN,
+		error: errorNIN,
+		data: dataNIN
+	} = useQuery(GET_C_NIN)
+
+	// const mediaFIR = dataFIR?.mediaItem || []
+	// const mediaSEC = dataSEC?.mediaItem || []
+	// const mediaTHI = dataTHI?.mediaItem || []
 	const mediaFOU = dataFOU?.mediaItem || []
 	const mediaFIV = dataFIV?.mediaItem || []
 	const mediaSIX = dataSIX?.mediaItem || []
+	const mediaSEV = dataSEV?.mediaItem || []
+	const mediaEIG = dataEIG?.mediaItem || []
+	const mediaNIN = dataNIN?.mediaItem || []
 
 	// Combine all media items into a single array
-	const mediaItems = [mediaFIR, mediaSEC, mediaTHI, mediaFOU, mediaFIV, mediaSIX]
+	const mediaItems = [mediaFOU, mediaFIV, mediaSIX, mediaSEV, mediaEIG, mediaNIN]
 
 	// Remove <p> tags from the description
 	const removePTags = (htmlString) => {
@@ -86,7 +107,7 @@ const CoursesComp = () => {
 		})
 	return (
 		<>
-			{loadingFIR | loadingSEC | loadingTHI | loadingFOU | loadingFIV | loadingSIX ? (
+			{loadingFOU | loadingFIV | loadingSIX | loadingSEV | loadingEIG | loadingNIN? (
 				Array.from({ length: 1 }).map((_, index) => (
 					<div key={index} className='p-4'>
 						<Skeleton
