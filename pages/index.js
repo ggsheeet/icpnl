@@ -167,12 +167,12 @@ export default function Home() {
 				<link rel='icon' href='/icpnl-ico.svg' />
 				<meta
 					property='og:title'
-					content='¿Cuándo se debe presentar el aviso para dictaminar el cumplimiento en materia del Seguro Social?'
+					content='¿Qué transferencias bancarias entre personas vigila el SAT?'
 				/>
 				<meta property='og:description' content='Boletín Diario ICPNL' />
 				<meta property='og:type' content='website' />
 				<meta property='og:url' content='https://icpnl.vercel.app' />
-				<meta property='og:image' content='/segurosoc.png' />
+				<meta property='og:image' content='/deposit.png' />
 				<meta property='og:image:type' content='image/jpg' />
 				<meta property='og:image:width' content='1200' />
 				<meta property='og:image:height' content='630' />
