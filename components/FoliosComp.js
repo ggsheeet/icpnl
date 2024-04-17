@@ -10,6 +10,23 @@ const FoliosComp = () => {
 				<tbody>
 					<tr>
 						<td>
+							Folio.: 32/2023-2024 Aviso de Dictamen del Seguro Social del
+							ejercicio 2023 y Manual del Usuario del Sistema de Dictamen
+							Electrónico Versión
+						</td>
+						<td>8 de abril, 2024</td>
+						<td>
+							<a
+								href='https://imcp.org.mx/folio-32-2023-2024-aviso-de-dictamen-del-seguro-social-del-ejercicio-2023-y-manual-del-usuario-del-sistema-de-dictamen-electronico-version-10-0/'
+								rel='noopener noreferrer'
+								target='_blank'
+							>
+								Ver Folio
+							</a>
+						</td>
+					</tr>
+					<tr>
+						<td>
 							Folio No.: 30/2023-2024 Disposiciones por considerar para la
 							presentación del informe fiscal del auditor 2023, elaborado por la
 							Comisión Regional Centro-Occidente
@@ -67,90 +84,6 @@ const FoliosComp = () => {
 						<td>
 							<a
 								href='https://imcp.org.mx/folio-no-27-2023-2024-invitacion-al-webinar-de-capacitacion-empresarial-2024-impartido-por-el-infonavit-como-cumplir-con-el-infonavit-y-opciones-de-financiamiento/'
-								rel='noopener noreferrer'
-								target='_blank'
-							>
-								Ver Folio
-							</a>
-						</td>
-					</tr>
-					<tr>
-						<td>
-							Folio No.: 17/2023-2024 Presentación de constancia que acredita el
-							cumplimiento de la Norma de Desarrollo Profesional Continuo ante
-							el Infonavit
-						</td>
-						<td>5 de marzo, 2024</td>
-						<td>
-							<a
-								href='https://imcp.org.mx/wp-content/uploads/2024/03/Folio-17.-Presentaci%C3%B3n-de-constancia-que-acredita-cumplimiento-de-la-Norma-de-Desarrollo-Profesional-Continuo-ante-el-Infonavit.pdf'
-								rel='noopener noreferrer'
-								target='_blank'
-							>
-								Ver Folio
-							</a>
-						</td>
-					</tr>
-					<tr>
-						<td>
-							Folio No.: 13/2023-2024 Dictamen Fiscal 2023 Efecto del Amparo
-							818/2023 resuelto en la SCJN en el trabajo del Contador Público
-							Inscrito respecto del Incumplimiento de las disposiciones fiscales
-							y aduaneras o de un hecho probablemente constitutivo de delito
-						</td>
-						<td>14 de febrero, 2024</td>
-						<td>
-							<a
-								href='https://imcp.org.mx/folio-no-13-2023-2024-dictamen-fiscal-2023-efecto-del-amparo-818-2023-resuelto-en-la-scjn-en-el-trabajo-del-contador-publico-inscrito-respecto-del-incumplimiento-de-las-disposiciones-fiscales-y-adua/'
-								rel='noopener noreferrer'
-								target='_blank'
-							>
-								Ver Folio
-							</a>
-						</td>
-					</tr>
-					<tr>
-						<td>
-							Folio No.: 12/2023-2024 IMSS. Determinación de la Prima de Riesgos
-							de Trabajo 2024
-						</td>
-						<td>13 de febrero, 2024</td>
-						<td>
-							<a
-								href='https://imcp.org.mx/folio-no-12-2023-2024-imss-determinacion-de-la-prima-de-riesgos-de-trabajo-2024/'
-								rel='noopener noreferrer'
-								target='_blank'
-							>
-								Ver Folio
-							</a>
-						</td>
-					</tr>
-					<tr>
-						<td>
-							Folio No.: 11/2023-2024 Presentación de la ISSIF para Partes
-							Relacionadas
-						</td>
-						<td>7 de febrero, 2024</td>
-						<td>
-							<a
-								href='https://imcp.org.mx/folio-no-11-2023-2024-presentacion-de-la-issif-para-partes-relacionadas/'
-								rel='noopener noreferrer'
-								target='_blank'
-							>
-								Ver Folio
-							</a>
-						</td>
-					</tr>
-					<tr>
-						<td>
-							Folio No.: 10/2023-2024 Serie de Gestión de la Calidad:
-							Implementación en firmas pequeñas, Publicación Dos: Desarrollar un
-							Plan de Implementación Detallado
-						</td>
-						<td>2 de febrero, 2024</td>
-						<td>
-							<a
-								href='https://imcp.org.mx/folio-no-10-2023-2024-serie-de-gestion-de-la-calidad-implementacion-en-firmas-pequenas-publicacion-dos-desarrollar-un-plan-de-implementacion-detallado/'
 								rel='noopener noreferrer'
 								target='_blank'
 							>

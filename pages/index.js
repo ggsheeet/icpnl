@@ -167,12 +167,12 @@ export default function Home() {
 				<link rel='icon' href='/icpnl-ico.svg' />
 				<meta
 					property='og:title'
-					content='Aspectos a considerar al renovar el registro en el REPSE'
+					content='Límite a deducciones personales en la anual de personas físicas'
 				/>
 				<meta property='og:description' content='Boletín Diario ICPNL' />
 				<meta property='og:type' content='website' />
 				<meta property='og:url' content='https://icpnl.vercel.app' />
-				<meta property='og:image' content='/thumbnailmeta.png' />
+				<meta property='og:image' content='/personal.png' />
 				<meta property='og:image:type' content='image/jpg' />
 				<meta property='og:image:width' content='1200' />
 				<meta property='og:image:height' content='630' />
