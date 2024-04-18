@@ -10,6 +10,22 @@ const FoliosComp = () => {
 				<tbody>
 					<tr>
 						<td>
+							Folio.: 33/2023-2024 Recomendaciones a considerar por los CPI,
+							antes del envío de los dictámenes (SIPRED 2023)
+						</td>
+						<td>8 de abril, 2024</td>
+						<td>
+							<a
+								href='https://imcp.org.mx/folio-33-2023-2024-recomendaciones-a-considerar-por-los-cpi-antes-del-envio-de-los-dictamenes-sipred-2023/'
+								rel='noopener noreferrer'
+								target='_blank'
+							>
+								Ver Folio
+							</a>
+						</td>
+					</tr>
+					<tr>
+						<td>
 							Folio.: 32/2023-2024 Aviso de Dictamen del Seguro Social del
 							ejercicio 2023 y Manual del Usuario del Sistema de Dictamen
 							Electrónico Versión
