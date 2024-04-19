@@ -65,15 +65,15 @@ const CoursesComp = () => {
 	const mediaTHI = dataTHI?.mediaItem || []
 	const mediaFOU = dataFOU?.mediaItem || []
 	const mediaFIV = dataFIV?.mediaItem || []
-	// const mediaSIX = dataSIX?.mediaItem || []
-	// const mediaSEV = dataSEV?.mediaItem || []
-	// const mediaEIG = dataEIG?.mediaItem || []
+	const mediaSIX = dataSIX?.mediaItem || []
+	const mediaSEV = dataSEV?.mediaItem || []
+	const mediaEIG = dataEIG?.mediaItem || []
 	// const mediaNIN = dataNIN?.mediaItem || []
 
 	// Combine all media items into a single array
-	const mediaItems = [mediaFIR, mediaSEC, mediaTHI, mediaFOU, mediaFIV]
+	const mediaItems = [mediaFIR, mediaSEC, mediaTHI, mediaFOU, mediaFIV, mediaSIX, mediaSEV, mediaEIG]
 
-	// , mediaSIX, mediaSEV, mediaEIG, mediaNIN
+	// , mediaNIN
 
 	// Remove <p> tags from the description
 	const removePTags = (htmlString) => {
@@ -109,8 +109,8 @@ const CoursesComp = () => {
 		})
 	return (
 		<>
-		{/* | loadingSIX | loadingSEV | loadingEIG | loadingNIN */}
-			{loadingFIR | loadingSEC | loadingTHI | loadingFOU | loadingFIV ? (
+		{/*  | loadingNIN */}
+			{loadingFIR | loadingSEC | loadingTHI | loadingFOU | loadingFIV | loadingSIX | loadingSEV | loadingEIG ? (
 				Array.from({ length: 1 }).map((_, index) => (
 					<div key={index} className='p-4'>
 						<Skeleton
