@@ -167,12 +167,12 @@ export default function Home() {
 				<link rel='icon' href='/icpnl-ico.svg' />
 				<meta
 					property='og:title'
-					content='¿Qué ‘Uso del CFDI’ pueden usar las personas físicas, según su régimen?'
+					content='Entrevista en radio de Alejandro González Villareal presidente del ICPNL Tema: Declaración anual de Impuestos.'
 				/>
 				<meta property='og:description' content='Boletín Diario ICPNL' />
 				<meta property='og:type' content='website' />
 				<meta property='og:url' content='https://icpnl.vercel.app' />
-				<meta property='og:image' content='/notanueva.png' />
+				<meta property='og:image' content='/interview.png' />
 				<meta property='og:image:type' content='image/jpg' />
 				<meta property='og:image:width' content='1200' />
 				<meta property='og:image:height' content='630' />

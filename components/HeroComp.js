@@ -3,6 +3,7 @@ import Link from 'next/link'
 import { useQuery } from '@apollo/client'
 import { GET_POSTS_FIR } from '@/lib/queries'
 import { Skeleton, SkeletonText } from '@chakra-ui/react'
+import DOMPurify from 'dompurify'
 
 const HeroComp = () => {
 	const {
@@ -11,7 +12,7 @@ const HeroComp = () => {
 		data: dataFIR
 	} = useQuery(GET_POSTS_FIR)
 	const article = dataFIR?.posts?.nodes[0]
-	
+
 	return (
 		<>
 			{loadingFIR ? (
@@ -47,13 +48,22 @@ const HeroComp = () => {
 							</p>
 						</Link>
 						<div className='relative w-full md:w-[60%] lg:w-[52.9%] xl:w-[47.3%] 2xl:w-[47.3%] h-[49.5vw] md:h-[31.7vw] lg:h-[28vw] xl:h-[25vw]'>
-							<iframe
+							{/* <iframe
 								width='100%'
 								height='100%'
 								src='https://www.youtube.com/embed/zkDGaaVYNYs?autoplay=1&mute=1'
 								frameborder='0'
 								allowfullscreen
 								loop
+								className='rounded-md'
+							></iframe> */}
+							<iframe
+								src='https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fabcnoticiasmty%2Fvideos%2F416214097822793%2F&show_text=false&width=560&t=55'
+								width='100%'
+								height='100%'
+								frameborder='0'
+								allowfullscreen
+								allow='autoplay'
 								className='rounded-md'
 							></iframe>
 							<a
