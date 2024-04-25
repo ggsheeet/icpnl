@@ -167,12 +167,12 @@ export default function Home() {
 				<link rel='icon' href='/icpnl-ico.svg' />
 				<meta
 					property='og:title'
-					content='Postura SAT ante el incumplimiento de los RESICO'
+					content='Beneficios fiscales para zona libre de Chetumal'
 				/>
 				<meta property='og:description' content='Boletín Diario ICPNL' />
 				<meta property='og:type' content='website' />
 				<meta property='og:url' content='https://icpnl.vercel.app' />
-				<meta property='og:image' content='/resico-new.png' />
+				<meta property='og:image' content='/thumbone.png' />
 				<meta property='og:image:type' content='image/jpg' />
 				<meta property='og:image:width' content='1200' />
 				<meta property='og:image:height' content='630' />
