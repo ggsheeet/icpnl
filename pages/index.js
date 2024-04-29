@@ -167,12 +167,12 @@ export default function Home() {
 				<link rel='icon' href='/icpnl-ico.svg' />
 				<meta
 					property='og:title'
-					content='El SAT duplica su recaudación por aplicación de multas'
+					content='Entrevista con el Presidente y Vicepresidente del ICPNL | Noticias 28'
 				/>
 				<meta property='og:description' content='Boletín Diario ICPNL' />
 				<meta property='og:type' content='website' />
 				<meta property='og:url' content='https://icpnl.vercel.app' />
-				<meta property='og:image' content='/sattttt.png' />
+				<meta property='og:image' content='/vid-thumb-interview.png' />
 				<meta property='og:image:type' content='image/png' />
 				<meta property='og:image:width' content='1200' />
 				<meta property='og:image:height' content='630' />
