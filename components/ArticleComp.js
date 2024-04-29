@@ -6,8 +6,8 @@ const ArticleComp = ({ article }) => {
   const paragraphs = article.content.split("\n\n");
 
   return (
-    <div className="flex">
-      <div key={article.id}>
+    <div className="flex w-full">
+      <div key={article.id} className="w-full">
         <div className="relative">
           <img
             src={article.featuredImage.node.sourceUrl}
