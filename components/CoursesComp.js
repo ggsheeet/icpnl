@@ -68,12 +68,12 @@ const CoursesComp = () => {
 	const mediaSIX = dataSIX?.mediaItem || []
 	const mediaSEV = dataSEV?.mediaItem || []
 	const mediaEIG = dataEIG?.mediaItem || []
-	// const mediaNIN = dataNIN?.mediaItem || []
+	const mediaNIN = dataNIN?.mediaItem || []
 
 	// Combine all media items into a single array
-	const mediaItems = [mediaFIR, mediaSEC, mediaTHI, mediaFOU, mediaFIV, mediaSIX, mediaSEV, mediaEIG]
+	const mediaItems = [mediaFIR, mediaSEC, mediaTHI, mediaFOU, mediaFIV, mediaSIX, mediaSEV, mediaEIG, mediaNIN]
 
-	//  , mediaNIN
+	//  
 
 	// Remove <p> tags from the description
 	const removePTags = (htmlString) => {
@@ -94,7 +94,7 @@ const CoursesComp = () => {
 					href={description}
 					rel='noopener noreferrer'
 					target='_blank'
-					className='flex justify-center px-[2.5%] py-[3%]'
+					className='flex justify-center px-[2.5%] py-[3%] w-full'
 				>
 					<Image
 						src={media.sourceUrl}
@@ -109,8 +109,8 @@ const CoursesComp = () => {
 		})
 	return (
 		<>
-		{/*  | loadingNIN */}
-			{ loadingFIR | loadingSEC | loadingTHI | loadingFOU | loadingFIV | loadingSIX | loadingSEV | loadingEIG ? (
+		{/*   */}
+			{ loadingFIR | loadingSEC | loadingTHI | loadingFOU | loadingFIV | loadingSIX | loadingSEV | loadingEIG | loadingNIN ? (
 				Array.from({ length: 1 }).map((_, index) => (
 					<div key={index} className='p-4'>
 						<Skeleton

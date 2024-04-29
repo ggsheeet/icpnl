@@ -167,12 +167,12 @@ export default function Home() {
 				<link rel='icon' href='/icpnl-ico.svg' />
 				<meta
 					property='og:title'
-					content='Daño de empresas fantasma al erario público supera los 40 bdp'
+					content='El SAT duplica su recaudación por aplicación de multas'
 				/>
 				<meta property='og:description' content='Boletín Diario ICPNL' />
 				<meta property='og:type' content='website' />
 				<meta property='og:url' content='https://icpnl.vercel.app' />
-				<meta property='og:image' content='/fantasma.png' />
+				<meta property='og:image' content='/lap.png' />
 				<meta property='og:image:type' content='image/jpg' />
 				<meta property='og:image:width' content='1200' />
 				<meta property='og:image:height' content='630' />
