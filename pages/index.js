@@ -167,12 +167,12 @@ export default function Home() {
 				<link rel='icon' href='/icpnl-ico.svg' />
 				<meta
 					property='og:title'
-					content='¿Se puede condonar impuestos a los trabajadores? Esto dicen los expertos sobre propuesta de Xóchitl'
+					content='Crece 3.75 veces con AMLO rentabilidad del SAT'
 				/>
 				<meta property='og:description' content='Boletín Diario ICPNL' />
 				<meta property='og:type' content='website' />
 				<meta property='og:url' content='https://icpnl.vercel.app' />
-				<meta property='og:image' content='/th.png' />
+				<meta property='og:image' content='/satth.png' />
 				<meta property='og:image:type' content='image/png' />
 				<meta property='og:image:width' content='1200' />
 				<meta property='og:image:height' content='630' />
