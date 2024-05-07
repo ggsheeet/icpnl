@@ -167,7 +167,7 @@ export default function Home() {
 				<link rel='icon' href='/icpnl-ico.svg' />
 				<meta
 					property='og:title'
-					content='SAT cancelará sellos digitales a estos contribuyentes, a partir del 15 de mayo'
+					content='Los contribuyentes deben 2.5 billones de pesos al SAT'
 				/>
 				<meta property='og:description' content='Boletín Diario ICPNL' />
 				<meta property='og:type' content='website' />
