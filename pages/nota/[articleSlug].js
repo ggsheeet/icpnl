@@ -16,7 +16,7 @@ const ArticlePage = () => {
     variables: { articleSlug },
   });
 
-  if (loading) {
+  if (!loading) {
     return (
       <div className="bg-brand-white-smoke">
         <HeaderOther />
