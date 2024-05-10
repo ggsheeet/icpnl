@@ -167,7 +167,7 @@ export default function Home() {
 				<link rel='icon' href='/icpnl-ico.svg' />
 				<meta
 					property='og:title'
-					content='Hacienda descarta freno en la economía para 2025 por ajuste fiscal'
+					content='SAT recupera 109 mdp por juicios al cierre de marzo'
 				/>
 				<meta property='og:description' content='Boletín Diario ICPNL' />
 				<meta property='og:type' content='website' />
