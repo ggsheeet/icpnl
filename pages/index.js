@@ -167,7 +167,7 @@ export default function Home() {
 				<link rel='icon' href='/icpnl-ico.svg' />
 				<meta
 					property='og:title'
-					content='¿Pediste tu devolución? SAT regresará 37,310 millones de pesos'
+					content='México, el país con menos ingresos tributarios de la OCDE: IBD'
 				/>
 				<meta property='og:description' content='Boletín Diario ICPNL' />
 				<meta property='og:type' content='website' />
