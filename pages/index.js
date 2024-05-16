@@ -167,7 +167,7 @@ export default function Home() {
 				<link rel='icon' href='/icpnl-ico.svg' />
 				<meta
 					property='og:title'
-					content='Devolución de ISR, la teoría de juegos'
+					content='Cómo saber si es un correo falso del SAT'
 				/>
 				<meta property='og:description' content='Boletín Diario ICPNL' />
 				<meta property='og:type' content='website' />
