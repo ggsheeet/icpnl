@@ -51,14 +51,14 @@ const HeroComp = () => {
 							<iframe
 								width='100%'
 								height='100%'
-								src='https://www.youtube.com/embed/JBnfidgTD34?autoplay=1&mute=1'
+								src='https://www.youtube.com/embed/WW8XxZbEoT4?autoplay=1&mute=1'
 								frameborder='0'
 								allowfullscreen
 								loop
 								className='rounded-md'
 							></iframe>
 							{/* <iframe
-								src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fcanal28nl%2Fvideos%2F265707769866472%2F&show_text=false&width=560&t=122"
+								src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FBDContigo%2Fvideos%2F1612607359591926%2F&show_text=false&width=560&t=6166"
 								width='100%'
 								height='100%'
 								frameborder='0'
