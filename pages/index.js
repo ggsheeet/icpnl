@@ -167,7 +167,7 @@ export default function Home() {
 				<link rel='icon' href='/icpnl-ico.svg' />
 				<meta
 					property='og:title'
-					content='Más de 7.6 millones de contribuyentes podrán solicitar el saldo a favor de su declaración anual'
+					content='Entrevista en el Canal 53" C.P.C Alejandro González presidente y vice presidente C.P.C Luis Padrón'
 				/>
 				<meta property='og:description' content='Boletín Diario ICPNL' />
 				<meta property='og:type' content='website' />
