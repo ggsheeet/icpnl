@@ -167,7 +167,7 @@ export default function Home() {
 				<link rel='icon' href='/icpnl-ico.svg' />
 				<meta
 					property='og:title'
-					content='Entrevista en el Canal 53" C.P.C Alejandro González presidente y vice presidente C.P.C Luis Padrón'
+					content='Entrevista en ABC C.P.C Alejandro González presidente del ICPNL'
 				/>
 				<meta property='og:description' content='Boletín Diario ICPNL' />
 				<meta property='og:type' content='website' />
