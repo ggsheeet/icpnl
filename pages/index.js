@@ -167,7 +167,7 @@ export default function Home() {
 				<link rel='icon' href='/icpnl-ico.svg' />
 				<meta
 					property='og:title'
-					content='Entrevista en ABC C.P.C Alejandro González presidente del ICPNL'
+					content='Publican aviso para detectar transacciones relacionadas con organizaciones terroristas'
 				/>
 				<meta property='og:description' content='Boletín Diario ICPNL' />
 				<meta property='og:type' content='website' />
