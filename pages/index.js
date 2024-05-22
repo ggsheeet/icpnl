@@ -167,7 +167,7 @@ export default function Home() {
 				<link rel='icon' href='/icpnl-ico.svg' />
 				<meta
 					property='og:title'
-					content='Publican aviso para detectar transacciones relacionadas con organizaciones terroristas'
+					content='Reflexiones sobre el Criterio del IMSS en materia de Home Office'
 				/>
 				<meta property='og:description' content='Boletín Diario ICPNL' />
 				<meta property='og:type' content='website' />
