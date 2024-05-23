@@ -167,7 +167,7 @@ export default function Home() {
 				<link rel='icon' href='/icpnl-ico.svg' />
 				<meta
 					property='og:title'
-					content='Reflexiones sobre el Criterio del IMSS en materia de Home Office'
+					content='Limitaciones fiscales: Operaciones con RESICO no deducibles'
 				/>
 				<meta property='og:description' content='Boletín Diario ICPNL' />
 				<meta property='og:type' content='website' />

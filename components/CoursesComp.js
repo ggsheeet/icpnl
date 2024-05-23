@@ -66,14 +66,14 @@ const CoursesComp = () => {
 	const mediaFOU = dataFOU?.mediaItem || []
 	const mediaFIV = dataFIV?.mediaItem || []
 	const mediaSIX = dataSIX?.mediaItem || []
-	// const mediaSEV = dataSEV?.mediaItem || []
+	const mediaSEV = dataSEV?.mediaItem || []
 	// const mediaEIG = dataEIG?.mediaItem || []
 	// const mediaNIN = dataNIN?.mediaItem || []
 
 	// Combine all media items into a single array
-	const mediaItems = [mediaFIR, mediaSEC, mediaTHI, mediaFOU, mediaFIV, mediaSIX]
+	const mediaItems = [mediaFIR, mediaSEC, mediaTHI, mediaFOU, mediaFIV, mediaSIX, mediaSEV]
 
-	//   ,mediaSEV , mediaEIG, mediaNIN
+	//  , mediaEIG, mediaNIN
 
 	// Remove <p> tags from the description
 	const removePTags = (htmlString) => {
@@ -109,8 +109,8 @@ const CoursesComp = () => {
 		})
 	return (
 		<>
-		{/* | loadingSEV | loadingEIG | loadingNIN */}
-			{ loadingFIR | loadingSEC | loadingTHI | loadingFOU | loadingFIV | loadingSIX ? (
+		{/* | loadingEIG | loadingNIN */}
+			{ loadingFIR | loadingSEC | loadingTHI | loadingFOU | loadingFIV | loadingSIX | loadingSEV  ? (
 				Array.from({ length: 1 }).map((_, index) => (
 					<div key={index} className='p-4'>
 						<Skeleton
