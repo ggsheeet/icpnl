@@ -10,10 +10,28 @@ const FoliosComp = () => {
 				<tbody>
 					<tr>
 						<td>
+							Folio.: 37/2023-2024 “Informe proporcionado por el Contador
+							Público Inscrito respecto del incumplimiento a las disposiciones
+							fiscales y aduaneras o de un hecho probablemente constitutivo de
+							delito”
+						</td>
+						<td>22 de mayo, 2024</td>
+						<td>
+							<a
+								href='https://imcp.org.mx/folio-37-2023-2024-informe-proporcionado-por-el-contador-publico-inscrito-respecto-del-incumplimiento-a-las-disposiciones-fiscales-y-aduaneras-o-de-un-hecho-probablemente-constitutivo-de-de/'
+								rel='noopener noreferrer'
+								target='_blank'
+							>
+								Ver Folio
+							</a>
+						</td>
+					</tr>
+					<tr>
+						<td>
 							Folio.: 33/2023-2024 Recomendaciones a considerar por los CPI,
 							antes del envío de los dictámenes (SIPRED 2023)
 						</td>
-						<td>8 de abril, 2024</td>
+						<td>16 de abril, 2024</td>
 						<td>
 							<a
 								href='https://imcp.org.mx/folio-33-2023-2024-recomendaciones-a-considerar-por-los-cpi-antes-del-envio-de-los-dictamenes-sipred-2023/'
@@ -30,7 +48,7 @@ const FoliosComp = () => {
 							ejercicio 2023 y Manual del Usuario del Sistema de Dictamen
 							Electrónico Versión
 						</td>
-						<td>8 de abril, 2024</td>
+						<td>16 de abril, 2024</td>
 						<td>
 							<a
 								href='https://imcp.org.mx/folio-32-2023-2024-aviso-de-dictamen-del-seguro-social-del-ejercicio-2023-y-manual-del-usuario-del-sistema-de-dictamen-electronico-version-10-0/'
