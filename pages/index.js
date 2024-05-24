@@ -167,7 +167,7 @@ export default function Home() {
 				<link rel='icon' href='/icpnl-ico.svg' />
 				<meta
 					property='og:title'
-					content='Limitaciones fiscales: Operaciones con RESICO no deducibles'
+					content='Cayó 10% la recaudación tributaria en las aduanas del país en el primer trimestre'
 				/>
 				<meta property='og:description' content='Boletín Diario ICPNL' />
 				<meta property='og:type' content='website' />
