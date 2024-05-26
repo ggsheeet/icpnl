@@ -167,7 +167,7 @@ export default function Home() {
 				<link rel='icon' href='/icpnl-ico.svg' />
 				<meta
 					property='og:title'
-					content='Cayó 10% la recaudación tributaria en las aduanas del país en el primer trimestre'
+					content='SAT advierte por visitas a domicilio para comprobar que cumplen con trámite OBLIGATORIO en junio'
 				/>
 				<meta property='og:description' content='Boletín Diario ICPNL' />
 				<meta property='og:type' content='website' />
