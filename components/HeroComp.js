@@ -51,7 +51,7 @@ const HeroComp = () => {
 							<iframe
 								width='100%'
 								height='100%'
-								src='https://www.youtube.com/embed/FRk3m7kqwng?autoplay=1&mute=1'
+								src='https://www.youtube.com/embed/Gk12K4l_wmE?autoplay=1&mute=1'
 								frameborder='0'
 								allowfullscreen
 								loop
