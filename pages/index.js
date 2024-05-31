@@ -167,7 +167,7 @@ export default function Home() {
 				<link rel='icon' href='/icpnl-ico.svg' />
 				<meta
 					property='og:title'
-					content='Contadores proponen reforma fiscal para incrementar deducciones'
+					content='Gana el SAT más juicios contra contribuyentes'
 				/>
 				<meta property='og:description' content='Boletín Diario ICPNL' />
 				<meta property='og:type' content='website' />
@@ -204,9 +204,9 @@ export default function Home() {
 						</Link>
 					))}
 				</div>
-				<div className='p-[1rem]'>
+				{/* <div className='p-[1rem]'>
 					<CoursesComp />
-				</div>
+				</div> */}
 
 				<BannersComp />
 
