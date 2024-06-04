@@ -167,7 +167,7 @@ export default function Home() {
 				<link rel='icon' href='/icpnl-ico.svg' />
 				<meta
 					property='og:title'
-					content='SAT detecta empresas de paquetería y mensajería con importaciones irregulares'
+					content='SAT lanza DESCUENTO del 100 por ciento en multas a contribuyentes con deudas fiscales en junio'
 				/>
 				<meta property='og:description' content='Boletín Diario ICPNL' />
 				<meta property='og:type' content='website' />
