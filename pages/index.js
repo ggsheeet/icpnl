@@ -167,7 +167,7 @@ export default function Home() {
 				<link rel='icon' href='/icpnl-ico.svg' />
 				<meta
 					property='og:title'
-					content='SAT lanza DESCUENTO del 100 por ciento en multas a contribuyentes con deudas fiscales en junio'
+					content='¿Eres cliente BBVA, Banamex o de otros bancos? SAT lanza esta advertencia sobre transferencia entre cuentas propias'
 				/>
 				<meta property='og:description' content='Boletín Diario ICPNL' />
 				<meta property='og:type' content='website' />
