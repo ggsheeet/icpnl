@@ -167,7 +167,7 @@ export default function Home() {
 				<link rel='icon' href='/icpnl-ico.svg' />
 				<meta
 					property='og:title'
-					content='¿Cómo actúa el SAT si transfieres dinero entre cuentas propias?'
+					content='Elektra debe pagar 2,000 mdp al SAT'
 				/>
 				<meta property='og:description' content='Boletín Diario ICPNL' />
 				<meta property='og:type' content='website' />
