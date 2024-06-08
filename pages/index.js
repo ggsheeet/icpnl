@@ -167,7 +167,7 @@ export default function Home() {
 				<link rel='icon' href='/icpnl-ico.svg' />
 				<meta
 					property='og:title'
-					content='Elektra debe pagar 2,000 mdp al SAT'
+					content='El SAT ahora permite emitir facturas globales con hasta 5 años de retroactividad'
 				/>
 				<meta property='og:description' content='Boletín Diario ICPNL' />
 				<meta property='og:type' content='website' />
