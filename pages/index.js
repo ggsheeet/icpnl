@@ -167,7 +167,7 @@ export default function Home() {
 				<link rel='icon' href='/icpnl-ico.svg' />
 				<meta
 					property='og:title'
-					content='La recaudación de impuestos sube 5.8% entre enero y mayo de 2024'
+					content='Humberto Arreola: Trámites electrónicos, facilidades que debemos aprovechar'
 				/>
 				<meta property='og:description' content='Boletín Diario ICPNL' />
 				<meta property='og:type' content='website' />
