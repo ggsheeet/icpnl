@@ -167,7 +167,7 @@ export default function Home() {
 				<link rel='icon' href='/icpnl-ico.svg' />
 				<meta
 					property='og:title'
-					content='Humberto Arreola: Trámites electrónicos, facilidades que debemos aprovechar'
+					content='"Si se debe, se paga; si no se debe, no se paga": dice Salinas Pliego ante las "presiones" del SAT'
 				/>
 				<meta property='og:description' content='Boletín Diario ICPNL' />
 				<meta property='og:type' content='website' />
