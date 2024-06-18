@@ -167,7 +167,7 @@ export default function Home() {
 				<link rel='icon' href='/icpnl-ico.svg' />
 				<meta
 					property='og:title'
-					content='Habilitación del buzón tributario y de efirma hasta 2025'
+					content='Redistribución de impuestos, ¿desde la Inteligencia Artificial?'
 				/>
 				<meta property='og:description' content='Boletín Diario ICPNL' />
 				<meta property='og:type' content='website' />
