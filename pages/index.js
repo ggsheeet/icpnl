@@ -167,7 +167,7 @@ export default function Home() {
 				<link rel='icon' href='/icpnl-ico.svg' />
 				<meta
 					property='og:title'
-					content='La restricción del certificado de sello digital'
+					content='Prodecon detecta hasta 50 fraudes con la e.firma'
 				/>
 				<meta property='og:description' content='Boletín Diario ICPNL' />
 				<meta property='og:type' content='website' />
