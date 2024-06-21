@@ -167,7 +167,7 @@ export default function Home() {
 				<link rel='icon' href='/icpnl-ico.svg' />
 				<meta
 					property='og:title'
-					content='Prodecon detecta hasta 50 fraudes con la e.firma'
+					content='Sheinbaum descarta reforma fiscal y aclara cómo recaudará más'
 				/>
 				<meta property='og:description' content='Boletín Diario ICPNL' />
 				<meta property='og:type' content='website' />
