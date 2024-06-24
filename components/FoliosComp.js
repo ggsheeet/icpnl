@@ -10,6 +10,23 @@ const FoliosComp = () => {
 				<tbody>
 					<tr>
 						<td>
+							Folio No.: 39/2023-2024 Asunto: Invitación de la IFAC al webinario
+							“La función de director financiero y profesionales de finanzas y
+							la lucha contra la corrupción: cultivar una mentalidad integrada”
+						</td>
+						<td>21 de junio, 2024</td>
+						<td>
+							<a
+								href='https://imcp.org.mx/wp-content/uploads/2024/06/Folio-39.-Invitacio%CC%81n-IFAC-al-webinario-%E2%80%9CLa-funcio%CC%81n-de-director-financiero-y-profesionales.pdf'
+								rel='noopener noreferrer'
+								target='_blank'
+							>
+								Ver Folio
+							</a>
+						</td>
+					</tr>
+					<tr>
+						<td>
 							Folio.: 37/2023-2024 “Informe proporcionado por el Contador
 							Público Inscrito respecto del incumplimiento a las disposiciones
 							fiscales y aduaneras o de un hecho probablemente constitutivo de
