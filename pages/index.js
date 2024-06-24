@@ -167,7 +167,7 @@ export default function Home() {
 				<link rel='icon' href='/icpnl-ico.svg' />
 				<meta
 					property='og:title'
-					content='Sheinbaum descarta reforma fiscal y aclara cómo recaudará más'
+					content='Claudia Sheinbaum buscará mayor eficiencia del SAT durante su sexenio'
 				/>
 				<meta property='og:description' content='Boletín Diario ICPNL' />
 				<meta property='og:type' content='website' />
