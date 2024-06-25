@@ -167,7 +167,7 @@ export default function Home() {
 				<link rel='icon' href='/icpnl-ico.svg' />
 				<meta
 					property='og:title'
-					content='Claudia Sheinbaum buscará mayor eficiencia del SAT durante su sexenio'
+					content='Recaudación a grandes contribuyentes totalizó 359,025 millones de pesos a mayo'
 				/>
 				<meta property='og:description' content='Boletín Diario ICPNL' />
 				<meta property='og:type' content='website' />
