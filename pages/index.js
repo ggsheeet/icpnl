@@ -167,7 +167,7 @@ export default function Home() {
 				<link rel='icon' href='/icpnl-ico.svg' />
 				<meta
 					property='og:title'
-					content='Ludivina Flores: El impacto de las obligaciones fiscales de la Pymes en México'
+					content='Cómo solicitar la devolución manual si el SAT rechazó la automática'
 				/>
 				<meta property='og:description' content='Boletín Diario ICPNL' />
 				<meta property='og:type' content='website' />

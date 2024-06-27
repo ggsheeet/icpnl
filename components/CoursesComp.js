@@ -60,8 +60,8 @@ const CoursesComp = () => {
 		data: dataNIN
 	} = useQuery(GET_C_NIN)
 
-	const mediaFIR = dataFIR?.mediaItem || []
-	const mediaSEC = dataSEC?.mediaItem || []
+	// const mediaFIR = dataFIR?.mediaItem || []
+	// const mediaSEC = dataSEC?.mediaItem || []
 	const mediaTHI = dataTHI?.mediaItem || []
 	const mediaFOU = dataFOU?.mediaItem || []
 	const mediaFIV = dataFIV?.mediaItem || []
@@ -71,9 +71,9 @@ const CoursesComp = () => {
 	// const mediaNIN = dataNIN?.mediaItem || []
 
 	// Combine all media items into a single array
-	const mediaItems = [mediaFIR, mediaSEC, mediaTHI, mediaFOU, mediaFIV, mediaSIX, mediaSEV, mediaEIG]
+	const mediaItems = [mediaTHI, mediaFOU, mediaFIV, mediaSIX, mediaSEV, mediaEIG]
 
-	//  , mediaNIN
+	//  mediaFIR, mediaSEC, , mediaNIN
 
 	// Remove <p> tags from the description
 	const removePTags = (htmlString) => {
@@ -109,8 +109,8 @@ const CoursesComp = () => {
 		})
 	return (
 		<>
-		{/*  | loadingNIN */}
-			{ loadingFIR | loadingSEC | loadingTHI | loadingFOU | loadingFIV | loadingSIX | loadingSEV | loadingEIG ? (
+		{/* loadingFIR | loadingSEC |  | loadingNIN */}
+			{ loadingTHI | loadingFOU | loadingFIV | loadingSIX | loadingSEV | loadingEIG ? (
 				Array.from({ length: 1 }).map((_, index) => (
 					<div key={index} className='p-4'>
 						<Skeleton
