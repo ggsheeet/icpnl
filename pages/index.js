@@ -167,7 +167,7 @@ export default function Home() {
 				<link rel='icon' href='/icpnl-ico.svg' />
 				<meta
 					property='og:title'
-					content='G20 avanza en impuestos por riqueza para multimillonarios'
+					content='Banxico le ‘da la bienvenida’ a Claudia Sheinbaum: Deja tasa de interés en 11%'
 				/>
 				<meta property='og:description' content='Boletín Diario ICPNL' />
 				<meta property='og:type' content='website' />
