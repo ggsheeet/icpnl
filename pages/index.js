@@ -167,7 +167,7 @@ export default function Home() {
 				<link rel='icon' href='/icpnl-ico.svg' />
 				<meta
 					property='og:title'
-					content='Cómo solicitar la devolución manual si el SAT rechazó la automática'
+					content='G20 avanza en impuestos por riqueza para multimillonarios'
 				/>
 				<meta property='og:description' content='Boletín Diario ICPNL' />
 				<meta property='og:type' content='website' />
