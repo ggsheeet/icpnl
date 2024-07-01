@@ -167,7 +167,7 @@ export default function Home() {
 				<link rel='icon' href='/icpnl-ico.svg' />
 				<meta
 					property='og:title'
-					content='Banxico le ‘da la bienvenida’ a Claudia Sheinbaum: Deja tasa de interés en 11%'
+					content='Reportan fallas constantes en portal del SAT'
 				/>
 				<meta property='og:description' content='Boletín Diario ICPNL' />
 				<meta property='og:type' content='website' />
